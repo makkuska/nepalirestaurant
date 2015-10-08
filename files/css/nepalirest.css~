@@ -1,0 +1,163 @@
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #FF9900 /*#f4eafc/*#ead8f8 /*#dfc8f0/*#d9b9f0/* #C49CE0; */
+}
+
+.odsazeni {
+  padding-left: 15px;
+}
+
+.bily_text {
+  color: #fff;
+}
+
+.fotky p{
+  text-align: center; 
+}
+.first {
+  padding: 0px;
+}
+
+.page-header {
+  margin-top: 20px;
+}
+
+.img_100 {
+  width: 100%
+}
+
+a {
+  color: #6A3392;
+  text-decoration: none;
+}
+a:hover, a:focus {
+  color: #3E115F;
+  text-decoration:underline;
+}
+
+/* foto slider */
+  .bx-wrapper .bx-pager {
+    bottom: -95px;
+  }
+  
+  .bx-wrapper .bx-pager a {
+    border: solid #ccc 1px;
+    display: block;
+    margin: 0 5px;
+    padding: 3px;
+  }
+  
+  .bx-wrapper .bx-pager a:hover,
+  .bx-wrapper .bx-pager a.active {
+    border: solid #5280DD 1px;
+  }
+  
+  .bx-wrapper {
+    margin-bottom: 120px;
+  }
+  
+  /* jumbotron - slider */
+.jumbotron {
+  margin-bottom: 10px;
+}
+
+.jumbotron h1 {
+  font-size: 43px;
+  text-align: center;
+  color: #4b0082  ;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin: 0px;
+}
+
+.container .jumbotron {
+  padding-left: 0px;
+  padding-right: 0px;
+  background-color: #ffffff; 
+}
+
+.jumbotron {
+  padding: 0px;
+  padding-right: 0px;
+  padding-left: 0px;
+  border:1px solid #dfc8f0;
+}
+
+/* hlavní */
+.hlavni {
+  background-color: #ffffff; 
+  border:1px solid #dfc8f0;
+  border-radius: 4px;
+}
+
+/* footer - patička */
+.modal-footer {
+  padding: 19px 20px 10px 20px;
+  margin-right: -20px;
+  margin-left: -20px;
+}
+
+  /* ---------------------------- horní lišta -- vpravo */
+  .navbar-right:last_child > li > a {
+    padding-right:15px;
+  }
+
+  .navbar-right > li > a {
+    padding-right:5px;
+    padding-left:5px;
+  }
+
+/* navigace - menu */
+/*
+.navbar-collapse, .navbar-header{
+  background-color: #6A3392
+}
+.navbar-nav > li > a {
+  padding-bottom: 7px;
+  padding-top: 7px;
+}
+.navbar {
+  min-height: 34px;
+  margin-bottom: 10px;
+}
+.navbar-inverse {
+  border-color: #3E115F;
+}
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+  background-color: #3E115F;
+    color: #FFFFFF;
+}
+.navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+  background-color: #3E115F;
+  color: #dfc8f0;
+}
+  .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+  color: #dfc8f0;
+  }
+  .navbar-inverse .navbar-nav > .open> a {
+  background-color: #3E115F;
+    color: #FFFFFF;
+  }
+  .navbar-inverse .navbar-nav > .open> a:hover,.navbar-inverse .navbar-nav > .open> a:focus{
+  background-color: #3E115F;
+  color: #dfc8f0;
+}
+
+.navbar-inverse .navbar-nav > li > a , .navbar-inverse .navbar-header > a {
+  color: #fff;
+}
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+  background-color: #6A3392;
+
+}
+.navbar-inverse .navbar-toogle, .navbar-inverse .navbar-toogle:hover, .navbar-inverse .navbar-toogle:focus {
+  background-color: #3E115F;
+}
+*/
+@media (min-width: 992px) {
+  .container {
+    max-width: 970px;
+  }
+}

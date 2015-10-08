@@ -1,0 +1,9 @@
+$(document).ready(function(){
+  $('.bxslider').bxSlider({
+    auto: true,
+    autoControls: true
+  });
+  $('#foto').bxSlider({ 
+    pagerCustom: '#bx-pager';
+  });
+});

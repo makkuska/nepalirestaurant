@@ -1,0 +1,39 @@
+      <div id="myCarousel" class="carousel slide">
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="item active">
+            <img src="files/foto/lumbini_orez.jpg" alt="First slide">
+            <div class="container">
+              <div class="carousel-caption">
+                <h1>Nabízíme široký sortiment služeb</h1>
+                <p><a class="btn btn-large btn-primary" href="sluzby.phtml">Více o službách</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <img src="/files/foto/syaumbhu_orez.jpg" alt="Second slide">
+            <div class="container">
+              <div class="carousel-caption">
+                <h1>Převážíme již od roku 1991</h1>
+                <p><a class="btn btn-large btn-primary" href="vybaveni.phtml">Více o technickém vybavení</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <img src="/files/foto/lumbini_orez.jpg" alt="First slide">
+            <div class="container">
+              <div class="carousel-caption">
+                <h1>Neváhejte a kontaktujte nás</h1>
+                <p></p>
+                <p><a class="btn btn-large btn-primary" href="kontakty.phtml">Přejít na kontakty</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+      </div>
