@@ -7,48 +7,44 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
+            <a class="navbar-brand visible-xs" href="#">Nepali restaurant</a>
           </div>
           <div class="navbar-collapse collapse">
-            <ul class="nav navbar-nav">
-              <li >
-                <a class="navbar-brand" href="index.php">Nepali restaurant</a></li>
-              <li class=<?php if ($name_page == "restaurace") { $active = "active"; } else { $active = ""; } echo $active ?>>
-                <a href="restaurace.php">O restauraci</a></li>
+            <ul class="nav navbar-nav narbar-left">
+
               <li class=<?php if ($name_page == "menu") { $active = "active"; } else { $active = ""; } echo $active ?>>
-                <a href="menu.php">Denní menu</a></li>
+                <a href=<?php echo "{$folder}menu.php"?>>Týdenní menu</a></li>
+
               <li class=<?php if ($name_page == "listek") { $active = "active"; } else { $active = ""; } echo $active ?>>
-                <a href="listek.php">Jídelní a nápojový lístek</a></li>
-              <li class=<?php if ($name_page == "interier") { $active = "active"; } else { $active = ""; } echo $active ?>>
-              <a href="interier.php">Interiér</a></li>
-              <li class=<?php if ($name_page == "kontakt") { $active = "active"; } else { $active = ""; } echo $active ?>>
-                <a href="kontakt.php">Kontakt</a></li>
+                <a href=<?php echo "{$folder}listek.php"?>>Jídelní a nápojový lístek</a></li>
+
               <li class=<?php if ($name_page == "akce") { $active = "active"; } else { $active = ""; } echo $active ?>>
-                <a href="akce.php">Akce</a></li>
-              </ul>
-              <ul class="nav navbar-nav navbar-right">
-                <li><a href="index.php">cz</a> 
-                <li class="navbar-text">|</li>
-                <li><a href="../en/index.php">en</a></li>
-              </ul>
-              <!-- speciální vzhled navigace pro PC, noteboky 
-              <li class="dropdown visible-lg visible-md visible-sm">
-              <a href="#" class="dropdown-toggled" data-toggle="dropdown">Historie <b class="caret"></b></a>
-              <ul class="dropdown-menu">
-                <li><a href="hist_2013.php">2013</a></li>
-                <li><a href="hist_2011.php">2011</a></li>
-                <li><a href="hist_2009.php">Do roku 2009</a></li>
-              </ul>
-              </li>
-              <li><a class="visible-lg visible-md visible-sm" href="kontakt.php">Kontakt a přihláška</a></li>
-            -->
-              <!-- speciální vzhled navigace pro mobilní telefony
-              <li><a class="visible-xs" href="kontakt.php">Kontakt a přihláška</a></li>
-              <li class="visible-xs page-header odsazeni bily_text">Historie</li>
-              <li><a class="visible-xs" href="hist_2013.php">2013</a></li>
-              <li><a class="visible-xs" href="hist_2011.php">2011</a></li>
-              <li><a class="visible-xs" href="hist_2009.php">Do roku 2009</a></li>
+                <a href=<?php echo "{$folder}akce.php"?>>Akce</a></li>
+
+                <li><span class="bla"><a href=<?php echo "{$folder}index.php"?>>Blaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</a></li>
+              <li class=<?php if ($name_page == "menu") { $active = "visible-xs active"; } else { $active = "visible-xs"; } echo $active ?>>
+                <a href=<?php echo "{$folder}menu.php"?>>Týdenní menu</a></li>
+
+              <li class=<?php if ($name_page == "listek") { $active = "visible-xs active"; } else { $active = "visible-xs"; } echo $active ?>>
+                <a href=<?php echo "{$folder}listek.php"?>>Jídelní a nápojový lístek</a></li>
+
+              <li class=<?php if ($name_page == "akce") { $active = "visible-xs active"; } else { $active = "visible-xs"; } echo $active ?>>
+                <a href=<?php echo "{$folder}akce.php"?>>Akce</a></li>
+              <li class=<?php if ($name_page == "restaurace") { $active = "active"; } else { $active = ""; } echo $active ?>>
+                <a href=<?php echo "{$folder}restaurace.php"?>>O restauraci</a></li>
+
+              <li class=<?php if ($name_page == "interier") { $active = "active"; } else { $active = ""; } echo $active ?>>
+                <a href=<?php echo "{$folder}interier.php"?>>Interiér</a></li>
+
+              <li class=<?php if ($name_page == "kontakt") { $active = "active"; } else { $active = ""; } echo $active ?>>
+                <a href=<?php echo "{$folder}kontakt.php"?>>Kontakt</a></li>
+              <li><a class="visible-xs" href=<?php echo "../en/{$name_page_en}.php"?>>English</a></li>
             </ul>
-            -->
+            <ul class="nav navbar-nav navbar-right">
+              <li><a class="hidden-xs" href=<?php echo "{$name_page}.php"?>>CZ</a> 
+              <li class="hidden-xs navbar-text">|</li>
+              <li><a class="hidden-xs" href=<?php echo "../en/{$name_page_en}.php"?>>EN</a></li>
+            </ul>
           </div><!--/.nav-collapse -->
         </div>
 

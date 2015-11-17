@@ -1,64 +1,38 @@
-<!DOCTYPE html>
-<html lang="cs-cz" dir="ltr">
-  <head>
-  <?php include_once("head.html") ?>
 
-  </head>
-  <body>
   <?php $name_page = "kontakt" ?>
-    <!--[if lt IE 9]>
-      <script src="files/js/html5shiv.js"></script>
-      <script src="files/js/respond.min.js"></script>
-    <![endif]-->
+  <?php $name_page_en = "contact" ?>
+  <?php $folder = "" ?>
+  <?php $files = "../" ?>
+  <?php include_once("page_up_content.html") ?>
 
-    <div class="first container">
-      <div class="container">
-        <!-- div jumbotron -->
-        <?php include_once("slider.html") ?>
+    <!-- HLAVNÍ TĚLO STRÁNKY, ZDE EDITOVAT VEŠKERÝ TEXT -->
+    <div class="hlavni container"> 
+      <div class="row container">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+          <h2 class="page-header">The Kathmandu</h2>
+        </div>
+        <div class="col-lg-8 col-md-8 col-sm-6 col-xs-12">
+          <p>
+          <strong>NEPALI RESTAURANT</strong><br />
+          Dolní náměstí 25/40 <br />
+          (nad pasáží "MASNÉ KRÁMY")<br />
+          779 00 Olomouc <br />
+          </p>
+          <p>
+          TELEFON, REZERVACE: +420 773 279 782<br />
+          </p>
+          <p>
+          e-mail: info@nepalirestaurant.cz<br />
+          </p>
+          <p>
+          <strong>Otevírací doba</strong>	<br />
+            Po-So	11.00 - 22.00	<br />
+            Ne	11.00 - 20.00	<br />
+          </p>
+          <div class="container">
+            <div id="map-canvas"></div>
+          </div>
+        </div> <!-- main collumn content -->
 
-        <!-- div navigator -->
-        <?php include_once("header.html") ?>
+  <?php include_once("page_down_content.html") ?>
 
-        <!-- HLAVNÍ TĚLO STRÁNKY, ZDE EDITOVAT VEŠKERÝ TEXT -->
-        <div class="hlavni container"> 
-          <div class="row container">
-            <div class="col-lg-8 col-md-8 col-sm-6 col-xs-12">
-            <h2 class="page-header">Kontakt</h2>
-            <p>
-            Těšíme se na vaši návštěvu a věříme, že se vám u nás bude líbit.<br /><br />
-             Nepali restaurant<br />
-             Dolní náměstí, Olomouc
-            </p>
-            </div>
-            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-             <h4 class="page-header">Kontakt</h4>
-             Nepali restaurant<br />
-             Dolní náměstí, Olomouc
-
-             <h4 class="page-header">Rezervace</h4>
-              <strong>Telefon</strong><br />
-             +420 585 999 999<br />
-              <strong>Mail</strong><br />
-              rezervation@nepalirestaurant.cz<br />
-
-              <h4 class="page-header">Akce</h4>
-              Neděle - Otevřeno ...<a href="cz/akce.php">více</a><br />
-              Neděle - otevřeno!!! ...<a href="cz/akce.php">více</a><br />
-                Obědy až do 15 hod. Lu ...<a href="cz/akce.php">více</a><br />
-                Nové - New!!! ...<a href="cz/akce.php">více</a><br />
-
-              <h4 class="page-header">Akceptujeme platební karty:</h4>
-            visa master american maestro
-            <h4 class="page-header">Akceptujeme tyto stravenky:</h4>
-            cheque  ticket  gastro
-            </div>
-          </div> <!-- /container -->
-
-          <?php include_once("paticka.html") ?>
-        </div> <!-- /container -->
-
-      </div> <!-- /container -->
-    </div> <!-- /container -->
-
-</body>
-</html>

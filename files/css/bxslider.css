@@ -16,7 +16,7 @@
 
 .bx-wrapper {
 	position: relative;
-	margin: 0 auto 60px;
+	margin: 0 auto 200px;
 	padding: 0;
 	*zoom: 1;
 }
@@ -45,12 +45,6 @@
     	transform: translatez(0);
 }
 
-.bx-wrapper .bx-pager,
-.bx-wrapper .bx-controls-auto {
-	position: absolute;
-	bottom: -30px;
-	width: 100%;
-}
 
 /* LOADER */
 
@@ -81,7 +75,9 @@
 	display: inline-block;
 	*zoom: 1;
 	*display: inline;
+	position: relative;
 }
+
 
 .bx-wrapper .bx-pager.bx-default-pager a {
 	background: #666;
@@ -197,8 +193,8 @@
 
 .bx-wrapper .bx-caption span {
 	color: #fff;
-	font-family: Arial;
+    font-family: Anivers-Regular;
 	display: block;
-	font-size: .85em;
+	font-size: 1em;
 	padding: 10px;
 }

@@ -1,62 +1,76 @@
-<!DOCTYPE html>
-<html lang="cs-cz" dir="ltr">
-  <head>
-  <?php include_once("head.html") ?>
 
-  </head>
-  <body>
   <?php $name_page = "akce" ?>
-    <!--[if lt IE 9]>
-      <script src="files/js/html5shiv.js"></script>
-      <script src="files/js/respond.min.js"></script>
-    <![endif]-->
+  <?php $name_page_en = "events" ?>
+  <?php $folder = "" ?>
+  <?php $files = "../" ?>
+  <?php include_once("page_up_content.html") ?>
 
-    <div class="first container">
-      <div class="container">
-        <!-- div jumbotron -->
-        <?php include_once("slider.html") ?>
+    <!-- HLAVNÍ TĚLO STRÁNKY, ZDE EDITOVAT VEŠKERÝ TEXT -->
+    <div class="hlavni container"> 
+      <div class="row container">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+          <h2 class="page-header">Akce</h2>
+        </div>
+        <div class="col-lg-8 col-md-8 col-sm-6 col-xs-12">
 
-        <!-- div navigator -->
-        <?php include_once("header.html") ?>
+        <?php
+          //load data
+          $datafile = '../files/data/akce.json';
+          $data = json_decode(file_get_contents($datafile));
 
-        <!-- HLAVNÍ TĚLO STRÁNKY, ZDE EDITOVAT VEŠKERÝ TEXT -->
-        <div class="hlavni container"> 
-          <div class="row container">
-            <div class="col-lg-8 col-md-8 col-sm-6 col-xs-12">
-            <h2 class="page-header">Akce</h2>
-            <p>
-            Těšíme se na vaši návštěvu a věříme, že se vám u nás bude líbit.
-            </p>
-            </div>
-            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-             <h4 class="page-header">Kontakt</h4>
-             Nepali restaurant<br />
-             Dolní náměstí, Olomouc
+          //process form
+          if (isset($_POST['url']) && $_POST['url'] == 'http://') {
+            $date = filter_input(INPUT_POST, 'date');
+            $subject = filter_input(INPUT_POST, 'subject');
+            $message = filter_input(INPUT_POST, 'message');
 
-             <h4 class="page-header">Rezervace</h4>
-              <strong>Telefon</strong><br />
-             +420 585 999 999<br />
-              <strong>Mail</strong><br />
-              rezervation@nepalirestaurant.cz<br />
+            $newFeature = new stdClass();
+            $newFeature->type = 'Feature';
+            //attributes
+            $prop = new stdClass();
+            $prop->date = $date;
+            $prop->subject = $subject;
+            $prop->message = $message;
+            $newFeature->properties = $prop;
+            //position
 
-              <h4 class="page-header">Akce</h4>
-              Neděle - Otevřeno ...<a href="cz/akce.php">více</a><br />
-              Neděle - otevřeno!!! ...<a href="cz/akce.php">více</a><br />
-                Obědy až do 15 hod. Lu ...<a href="cz/akce.php">více</a><br />
-                Nové - New!!! ...<a href="cz/akce.php">více</a><br />
+            //add to features
+            $data->features[] = $newFeature;
+            //save to file
+            file_put_contents($datafile, json_encode($data));
+          }
 
-              <h4 class="page-header">Akceptujeme platební karty:</h4>
-            visa master american maestro
-            <h4 class="page-header">Akceptujeme tyto stravenky:</h4>
-            cheque  ticket  gastro
-            </div>
-          </div> <!-- /container -->
+          $features = $data->features;
+          //TODO: if user comes from special addres than enable form (with htaccess?):
+          $isLogged = TRUE;
+        ?>
+          <div>
+            <?php
+            //print posts
+            $date_2months = date("Y-m-d", strtotime("-2 months"));
+            foreach ($features as $f) {
+            if ($f->properties->date > $date_2months) {
+                $output = '<p><strong>';
+                $output .= $f->properties->subject;
+                $output .= '</strong> (akce vložena ';
+                $output .= $f->properties->date[8] . $f->properties->date[9] . '.' . $f->properties->date[5] . $f->properties->date[6] . '.';
+                $output .= $f->properties->date[0] . $f->properties->date[1] . $f->properties->date[2] . $f->properties->date[3] ;
+                $output .= ') <br />';
+                $output .= $f->properties->message;
+                $output .= '</p>';
+                echo $output;
+            }
+            }
 
-          <?php include_once("paticka.html") ?>
-        </div> <!-- /container -->
+            ?>
+          </div>
 
-      </div> <!-- /container -->
-    </div> <!-- /container -->
+          <script type="text/javascript">
+            var data = <?php echo json_encode($data, JSON_UNESCAPED_SLASHES); ?>;
+            init(data);
+          </script>
 
-</body>
-</html>
+        </div> <!-- main collumn content -->
+
+  <?php include_once("page_down_content.html") ?>
+

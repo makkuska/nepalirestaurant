@@ -1,17 +1,51 @@
-body {
-  padding-top: 20px;
-  padding-bottom: 20px;
-  background-color: #FF9900 /*#f4eafc/*#ead8f8 /*#dfc8f0/*#d9b9f0/* #C49CE0; */
+/*oranžova světlá #f79028 */
+.Anivers-Regular { 
+	font-family: Anivers-Regular;
+	font-weight: normal;
+	font-style: normal;
 }
-
+body {
+    font-family: Anivers-Regular;
+    padding-top: 20px;
+    background: #660a13; /* Old browsers */
+    background: -webkit-linear-gradient(top,  #660a13 0%,#f79029 100%); /* Chrome10+,Safari5.1+ */
+    background:      -o-linear-gradient(top, #660a13 0%, #f79029 100%); /* Opera 12+ */
+    background:         linear-gradient(top, #660a13 0%,#f79029 100%); /* W3C */  /* Firefox 3.6+ */
+    background:    -moz-linear-gradient(top,	#660a13 0%, #f79029 100%);
+}
+  #map-canvas {
+    height:210px; 
+    width:100%;
+    border-color: #cd5d6c;
+    border-width: 2px;
+    position: relative;
+    left: -20px;
+  }
 .odsazeni {
   padding-left: 15px;
 }
 
+h1, h2, h3, h4, h5 {
+    color: #f47421;
+    font-family: Anivers-Regular;
+}
+
+.page-header {
+  padding-bottom: 20px;
+}
+a .logo_menu{
+  background: url(../img/logo.png);
+}
 .bily_text {
   color: #fff;
 }
+.oranzovy_text {
+    color: #f47421;
+}
 
+.bla {
+opacity: 0;
+}
 .fotky p{
   text-align: center; 
 }
@@ -23,17 +57,42 @@ body {
   margin-top: 20px;
 }
 
+
 .img_100 {
   width: 100%
 }
 
+.img_50 {
+  width: 50%
+}
+
 a {
-  color: #6A3392;
+  color: #f47421;
   text-decoration: none;
 }
-a:hover, a:focus {
-  color: #3E115F;
+a:hover, a:focus, a:visited {
+  color: #f47421;
   text-decoration:underline;
+}
+.active {
+  color: #000;
+}
+
+/* jídelníček TABLE */
+td:first-child {
+  width: 10%;
+}
+td:last-child {
+  width: 10%;
+}
+td:nth-child(2) {
+  width: 80%;
+}
+
+.table thead > tr > th, .table tbody > tr > th, .table tfoot > tr > th, .table thead > tr > td, .table tbody > tr > td, .table tfoot > tr > td {
+  border-top-width:0px;
+  padding: 0 8px;
+  padding-left: 0;
 }
 
 /* foto slider */
@@ -86,18 +145,36 @@ a:hover, a:focus {
   border:1px solid #dfc8f0;
 }
 
-/* hlavní */
-.hlavni {
-  background-color: #ffffff; 
-  border:1px solid #dfc8f0;
-  border-radius: 4px;
+#admin .skryty {
+  opacity: 0;
 }
 
+/* hlavní */
+.hlavni {
+  position: relative;
+  top: -50px;
+    background: #e4d2d2; /* Old browsers */
+    background: -webkit-linear-gradient(top,  #e4d2d2 0%,#fee9d4 100%); /* Chrome10+,Safari5.1+ */
+    background:      -o-linear-gradient(top, #e4d2d2 0%, #fee9d4 100%); /* Opera 12+ */
+    background:         linear-gradient(top, #e4d2d2 0%,#fee9d4 100%); /* W3C */  /* Firefox 3.6+ */
+    background:    -moz-linear-gradient(top,	#e4d2d2 0%, #fee9d4 100%);
+}
+
+  .hlavicka {
+    width:140%; 
+    position: relative;
+    left: -20%
+  }
+@media (max-width: 768px) {
+  .hlavni {
+    position: relative;
+    top: 0px;
+  }
+}
 /* footer - patička */
 .modal-footer {
   padding: 19px 20px 10px 20px;
-  margin-right: -20px;
-  margin-left: -20px;
+  border-top-color: #fff;
 }
 
   /* ---------------------------- horní lišta -- vpravo */
@@ -105,16 +182,78 @@ a:hover, a:focus {
     padding-right:15px;
   }
 
+  .navbar {
+  margin-bottom: 0px; 
+  }
+  
   .navbar-right > li > a {
     padding-right:5px;
     padding-left:5px;
+    text-decoration: none;
+  }
+  .navbar-default .navbar-text {
+    color: #f47421;
+    margin-right: 0px; 
+    margin-left: 0px; 
   }
 
 /* navigace - menu */
-/*
+
+.navbar .navbar-nav {
+  position: relative;
+  top: -130px;
+  }
+
+.navbar .navbar-nav .menu_vlevo{
+  position: absolute;
+  top: -130px;
+  left: 300px;
+  }
+
 .navbar-collapse, .navbar-header{
-  background-color: #6A3392
+  background-color: #FF9900;
+  background-color: rgba(0, 0, 0, 0);
 }
+.navbar {
+  background-color: rgba(0, 0, 0, 0);
+  border-color: rgba(0, 0, 0, 0);
+}
+.navbar .navbar-nav > .active > a, .navbar .navbar-nav > .active > a:hover, .navbar .navbar-nav > .active > a:focus {
+  background-color: rgba(0, 0, 0, 0);
+  color: #fff;
+  text-decoration: underline;
+}
+.navbar .navbar-nav > .active > a:hover, .navbar .navbar-nav > .active > a:focus {
+  background-color: rgba(0, 0, 0, 0);
+  color: #fff;
+  text-decoration: underline;
+}
+  .navbar .navbar-nav > li > a:hover, .navbar .navbar-nav > li > a:focus {
+  color: #fff;
+  text-decoration: underline;
+  }
+  .navbar .navbar-nav > .open> a {
+  background-color: rgba(0, 0, 0, 0);
+  color: #fff;
+  text-decoration: underline;
+  }
+  .navbar .navbar-nav > .open> a:hover,.navbar .navbar-nav > .open> a:focus{
+  background-color: rgba(0, 0, 0, 0);
+  color: #fff;
+  text-decoration: underline;
+}
+
+.navbar .navbar-nav > li > a , .navbar .navbar-header > a {
+  color: #fff;
+}
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+  background-color: rgba(0, 0, 0, 0);
+
+}
+.navbar .navbar-toogle, .navbar .navbar-toogle:hover, .navbar .navbar-toogle:focus {
+  background-color: rgba(0, 0, 0, 0);
+}
+/*
 .navbar-nav > li > a {
   padding-bottom: 7px;
   padding-top: 7px;
@@ -123,41 +262,37 @@ a:hover, a:focus {
   min-height: 34px;
   margin-bottom: 10px;
 }
-.navbar-inverse {
-  border-color: #3E115F;
-}
 
-.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
-  background-color: #3E115F;
-    color: #FFFFFF;
-}
-.navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
-  background-color: #3E115F;
-  color: #dfc8f0;
-}
-  .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
-  color: #dfc8f0;
-  }
-  .navbar-inverse .navbar-nav > .open> a {
-  background-color: #3E115F;
-    color: #FFFFFF;
-  }
-  .navbar-inverse .navbar-nav > .open> a:hover,.navbar-inverse .navbar-nav > .open> a:focus{
-  background-color: #3E115F;
-  color: #dfc8f0;
-}
-
-.navbar-inverse .navbar-nav > li > a , .navbar-inverse .navbar-header > a {
-  color: #fff;
-}
-.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
-  background-color: #6A3392;
-
-}
-.navbar-inverse .navbar-toogle, .navbar-inverse .navbar-toogle:hover, .navbar-inverse .navbar-toogle:focus {
-  background-color: #3E115F;
-}
 */
+.navbar-default .navbar-right > .active > a, .navbar-default .navbar-right > .active > a:hover, .navbar-default .navbar-right > .active > a:focus {
+    color: #f47421;
+  text-decoration: none;
+}
+.navbar-default .navbar-right > .active > a:hover, .navbar-default .navbar-right > .active > a:focus {
+  color: #f47421;
+  text-decoration: none;
+}
+  .navbar-default .navbar-right > li > a:hover, .navbar-default .navbar-right > li > a:focus {
+  color: #f47421;
+  text-decoration: none;
+  }
+  .navbar-default .navbar-right > .open> a {
+  color: #f47421;
+  text-decoration: none;
+  }
+  .navbar-default .navbar-right > .open> a:hover,.navbar-default .navbar-right > .open> a:focus{
+  color: #f47421;
+  text-decoration: none;
+}
+
+.navbar-default .navbar-right > li > a , .navbar .navbar-header > a {
+  color: #f47421;
+  text-decoration: none;
+}
+.navbar-default .navbar-right > li > a , .navbar .navbar-header > a {
+  color: #f47421;
+  text-decoration: none;
+}
 @media (min-width: 992px) {
   .container {
     max-width: 970px;
