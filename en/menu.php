@@ -17,32 +17,32 @@
     <div class="hlavni container"> 
       <div class="row container">
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-          <h2 class="page-header">Týdenní menu</h2>
+          <h2 class="page-header">Lunch menu</h2>
           <p>
-          Polední menu se podává formou bufetu <strong>pondělí až pátek mezi 11 a 15 hodinou</strong>.
+          Lunch menu is served as a buffet <strong>Monday to Friday between 11am and 3pm</strong>.
           <div class="row">
             <div class="col-lg-7 col-md-8 col-sm-10 col-xs-12">
               <table class='table'>
                 <tr>
                   <td></td>
-                  <td><strong>Polední menu</strong></td>
+                  <td><strong>Lunch menu</strong></td>
                   <td>110 Kč</td>
                 </tr>
                 <tr>
                   <td></td>
-                  <td class='oranzovy_text'>Menu formou bufetu</td>
+                  <td class='oranzovy_text'>All you can eat</td>
                   <td></td>
                 </tr>
               </table>
               <table class='table'>
                 <tr>
                   <td></td>
-                  <td><strong>Polední menu (krabička)</strong></td>
+                  <td><strong>Lunch menu (take away)</strong></td>
                   <td>90 Kč</td>
                 </tr>
                 <tr>
                   <td></td>
-                  <td class='oranzovy_text'>Výběr z poledního menu s sebou</td>
+                  <td class='oranzovy_text'>Lunch selection in the box</td>
                   <td></td>
                 </tr>
               </table>
@@ -56,7 +56,7 @@
             return $nazvy[$den];
         }
         echo "<p>";
-        echo "Dnes je " . cesky_den(date("w")) . ' ' . date('d.m.Y');
+        echo "Today is " . date("l") . ' ' . date('d.m.Y');
         echo "</p>";
         $this_week = '2016-W'.date('W');
 

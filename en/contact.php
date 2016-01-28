@@ -14,11 +14,11 @@
           <p>
           <strong>NEPALI RESTAURANT</strong><br />
           Dolní náměstí 25/40 <br />
-          (nad pasáží "MASNÉ KRÁMY")<br />
+          (over passage "MASNÉ KRÁMY")<br />
           779 00 Olomouc <br />
           </p>
           <p>
-          TELEFON, REZERVACE: +420 773 279 782<br />
+          PHONE, RESERVATION: +420 773 279 782<br />
           </p>
           <p>
           e-mail: info@nepalirestaurant.cz<br />
@@ -27,9 +27,9 @@
             <a href="https://www.facebook.com/The-Kathmandu-Nepali-Restaurant-1706496026236796/?fref=ts"><img alt="facebook logo" 
               src="../files/img/facebook.png" /></a>
           </p>
-          <h4>Otevírací doba</h4>
-          <strong>Pondělí až sobota: 11:00 - 22:00	</strong>	<br />
-            <h4>Akceptujeme tyto stravenky:</h4>
+          <h4>Opening hours</h4>
+          <strong>Monday to Saturday: 11:00 - 22:00	</strong>	<br />
+            <h4>We accept these meal ticket:</h4>
           <p>
             <img alt="stravenky checque ticket gastro" src="../files/img/stravenky.png" />
           </p>

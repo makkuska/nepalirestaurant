@@ -28,9 +28,9 @@
 <!DOCTYPE html>
   <?php $name_page = "" ?>
   <?php $name_page_en = "" ?>
-  <?php $folder = "cz/" ?>
-  <?php $files = "" ?>
-  <?php include_once("cz/page_up_content.html") ?>
+  <?php $folder = "" ?>
+  <?php $files = "../" ?>
+  <?php include_once("page_up_content.html") ?>
     <div id="admin" class="hlavni container"> 
       <div class="row container">
     <h1 class="page-header">Administrator</h1>
@@ -89,7 +89,7 @@
   </div>
 
   </div>
-  <?php include_once("cz/paticka.html") ?>
+  <?php include_once("paticka.html") ?>
   </div>
   </body>
   </html>

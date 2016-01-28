@@ -1,8 +1,7 @@
 
         <?php
           //load data jidlo
-
-          $datafile = 'files/data/jidlo.json';
+          $datafile = '../files/data/jidlo.json';
           $data = json_decode(file_get_contents($datafile));
 
           //process form
@@ -37,28 +36,24 @@
 
             //add to features
             $data->features[] = $newFeature;
+
             //save to file
-
-      $fh = fopen("files/data/jidlo.json", 'r+')
-            or die("Nelze načíst data");
-      fwrite($fh, json_encode($data,JSON_UNESCAPED_UNICODE));
-      fclose($fh);
-
-      //      file_put_contents($datafile, json_encode($data));
+            $fh = fopen("../files/data/jidlo.json", 'r+')
+                  or die("Nelze načíst data");
+            fwrite($fh, json_encode($data,JSON_UNESCAPED_UNICODE));
+            fclose($fh);
           }
 
           $features = $data->features;
-
-          //TODO: if user comes from special addres than enable form (with htaccess?):
 
           $isLogged = TRUE;
         ?>
 <!DOCTYPE html>
   <?php $name_page = "" ?>
   <?php $name_page_en = "" ?>
-  <?php $folder = "cz/" ?>
-  <?php $files = "" ?>
-  <?php include_once("cz/page_up_content.html") ?>
+  <?php $folder = "" ?>
+  <?php $files = "../" ?>
+  <?php include_once("page_up_content.html") ?>
     <div id="admin" class="hlavni container"> 
       <div class="row container">
     <h1>Administrator</h1>
@@ -117,19 +112,18 @@
 
             <?php
 
-        function cesky_den($den) {
-            static $nazvy = array('neděle', 'pondělí', 'úterý', 'středa', 'čtvrtek', 'pátek', 'sobota');
-            return $nazvy[$den];
-        }
-        echo "Today is " . date("l") . ' ' . date('d.m.Y') . ', week ' . date('W') . '<br />' . '<br />';
+              function cesky_den($den) {
+                static $nazvy = array('neděle', 'pondělí', 'úterý', 'středa', 'čtvrtek', 'pátek', 'sobota');
+                return $nazvy[$den];
+              }
+              echo "Today is " . date("l") . ' ' . date('d.m.Y') . ', week ' . date('W') . '<br />' . '<br />';
 
-        $this_week = '2016-W'.date('W');
-        $week = date('W');
-        $week1 = $week+1;
-        $next_week = date("Y") . "-W" . $week1;
-            //print posts
+              $this_week = '2016-W'.date('W');
+              $week = date('W');
+              $week1 = $week+1;
+              $next_week = date("Y") . "-W" . $week1;
 
-
+              //print posts
               foreach ($features as $f) {
               if ($f->properties->date == date("Y-m-d") && ($f->properties->week == $this_week || $f->properties->week == $next_week)) {
                     $output = '<p class="oranzovy_text">';
@@ -161,19 +155,20 @@
                     $output .= $f->properties->meal7 . ' <br />';
                     $output .= $f->properties->meal8 . '</p>';
                     echo $output;
+                }
               }
-              }
-                    
 
             ?>
           </div>
-            <?php } ?>
-    <script type="text/javascript">
-      var data = <?php echo json_encode($data, JSON_UNESCAPED_SLASHES); ?>;
-      init(data);
-    </script>
-  </div>
-  <?php include_once("cz/paticka.html") ?>
-  </div>
+        <?php } ?>
+
+        <script type="text/javascript">
+          var data = <?php echo json_encode($data, JSON_UNESCAPED_SLASHES); ?>;
+          init(data);
+        </script>
+
+      </div>
+    <?php include_once("paticka.html") ?>
+    </div>
   </body>
   </html>

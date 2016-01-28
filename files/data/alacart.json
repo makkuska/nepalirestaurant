@@ -2,65 +2,60 @@
       "part":"starters",
       "id": 1,
       "name": "Onion Bhaji",
+      "namecz": "Cibulové Bhaji",
       "size": "150 g",
-      "description": "Slices onion with light Nepali spices with gram flour and oil deep fired.",
+      "description": "Slices onion with light Nepali spices with gram flour and oil deep fired",
+      "descriptioncz": "Smažené cibulové kroužky v těstíčku z cizrnové mouky, lehce kořeněné nepálským kořením",
       "price": "69"
       }},
       {"type":"Feature","properties":{ 
       "part":"starters",
       "id": 2,
       "name": "Paneer Pakora",
+      "namecz": "Pakory s Paneerem",
       "size": "150 g",
-      "description": "Home made cottage cheese in gram flour butter and oil deep fried.",
+      "description": "Home made cottage cheese in gram flour butter and oil deep fried",
+      "descriptioncz": "Smažený domácí sýr Paneer v těstíčku z cizrnové mouky",
       "price": "79"
       }},
       {"type":"Feature","properties":{ 
       "part":"starters",
         "id": 3,
         "name": "Chicken Pakora",
+        "namecz": "Kuřecí Pakory",
         "size": "150 g",
-        "description": "Cubes of chicken with Nepali spices gram batter and oil deep fried.",
+        "description": "Cubes of chicken with Nepali spices gram butter and oil deep fried",
+        "descriptioncz": "Smažené kousky kuřecího masa v těstíčku z cizrnové mouky",
         "price": "79"
       }},
       {"type":"Feature","properties":{ 
       "part":"starters",
         "id": 4,
-        "name": "Masala Papad",
-        "size": "2 pc",
-        "description": "Fried papad with chop onion, cucumber, tomato, carrot and chat masala with lime juice.",
-        "price": "40"
-      }},
-      {"type":"Feature","properties":{ 
-      "part":"starters",
-        "id": 5, 
-        "name": "Papad",
-        "size": "1 pc",
-        "description": "",
-        "price": "15"
-      }},
-      {"type":"Feature","properties":{ 
-      "part":"starters",
-        "id": 6,
         "name": "Mushroom Tikka",
+        "namecz": "Houbová Tikka",
         "size": "150 g",
-        "description": "Fresh mushroom marinated with tandoori sauce cooked in clay oven.",
+        "description": "Fresh mushroom marinated with tandoori sauce cooked in clay oven",
+        "descriptioncz": "Čerstvé houby marinované v omáčce tandoori a opečené v hliněné peci",
         "price": "69"
       }},
       {"type":"Feature","properties":{ 
       "part":"starters",
-        "id": 7,
+        "id": 5,
         "name": "Butterfly prawn Pakora",
+        "namecz": "Krevetové Pakory",
         "size": "150 g",
-        "description": "Prawn pieces with gram flour batter and deep oil fried.",
+        "description": "Prawn pieces with gram flour butter and deep oil fried",
+        "descriptioncz": "Smažené kousky krevet v těstíčku z cizrnové mouky",
         "price": "155"
       }},
       {"type":"Feature","properties":{ 
       "part":"starters",
-        "id": 8,
-        "name": "Aloo Chop",
-        "size": "150 g",
-        "description": "Slices potato pieces with gram flour batter and deep oil fried.",
-        "price": "69"
+        "id": 6,
+        "name": "Papad",
+        "namecz": "Papad",
+        "descriptioncz": "Tenké křupavé placky z cizrnového těsta, osmažené",
+        "description": "Thin crispy disc-shaped food made from gram flour and fried",
+        "price": "15"
       }},
       {"type":"Feature","properties":{ 
       "part":"soups",
@@ -100,670 +95,992 @@
       }},
       {"type":"Feature","properties":{ 
         "part":"tandoori",
-        "id": 15,
+        "id": 9,
         "name": "Chicken Tikka",
-        "description": "Pieces of chicken marinated in yoghurt and Nepali spices.",
+        "namecz": "Kuřecí Tikka",
+        "description": "Pieces of chicken marinated in yoghurt and Nepali spices",
+        "descriptioncz": "Kousky kuřecího masa marinované v jogurtu s nepálským kořením",
         "price": "130"
       }},
       {"type":"Feature","properties":{ 
         "part":"tandoori",
-        "id": 16,
+        "id": 10,
         "name": "Chicken Garlic Tikka",
-        "description": "Pieces of chicken marinated in garlic sauce, yoghurt and Nepali spices.",
+        "namecz": "Kuření Tikka s česnekem",
+        "description": "Pieces of chicken marinated in garlic sauce, yoghurt and Nepali spices",
+        "descriptioncz": "Kousky kuřecího masa marinované v jogurtu s česnekem a nepálským kořením",
         "price": "139"
       }},
       {"type":"Feature","properties":{ 
         "part":"tandoori",
-        "id": 17,
-        "name": "Chicken Ginger Tikka",
-        "description": "Pieces of chicken marinated in ginger sauce with yoghurt and Nepali spices.",
+        "id": 11,
+        "name": "Chicken Molai Tikka",
+        "namecz": "Kuřecí Molai Tikka",
+        "description": "Pieces of chicken marinated with creamy sauce",
+        "descriptioncz": "Kousky kuřete marinované v krémové omáčce",
         "price": "139"
       }},
       {"type":"Feature","properties":{ 
         "part":"tandoori",
-        "id": 18,
-        "name": "Chicken Mali Tikka",
-        "description": "Pieces of chicken marinated with creamy sauce.",
-        "price": "139"
-      }},
-      {"type":"Feature","properties":{ 
-        "part":"tandoori",
-        "id": 19,
+        "id": 12,
         "name": "Chicken Hariyo Tikka",
-        "description": "Pieces of chicken marinated with mint and coriander sauce yoghurt.",
+        "namecz": "Kuřecí Hariyo Tikka",
+        "description": "Pieces of chicken marinated with mint and coriander sauce yoghurt",
+        "descriptioncz": "Kousky kuřecího masa marinované v jogurtu s mátou a koriandrem",
         "price": "149"
       }},
       {"type":"Feature","properties":{ 
         "part":"tandoori",
-        "id": 20,
+        "id": 13,
         "name": "Chicken Tandoori",
-        "description": "2 chicken quarters marinated in yoghurt and Nepali spices.",
+        "namecz": "Kuřecí Tandoori",
+        "description": "2 chicken quarters marinated in yoghurt and Nepali spices",
+        "descriptioncz": "2 kuřecí čtvrtky marinované v jogurtu s nepálským kořením",
         "price": "190"
       }},
-      {"type":"Feature","properties":{ 
-        "part":"tandoori",
-        "id": 21,
-        "name": "Saffron Chicken Tikka",
-        "description": "Pieces of chicken marinated with saffron and yoghurt and Nepali spices.",
-        "price": "139"
-      }},
-      {"type":"Feature","properties":{ 
-        "part":"tandoori",
-        "id": 22,
-        "name": "Chicken Sekuwa",
-        "description": "Pieces of chicken with Lemon and light Nepali spices.",
-        "price": "125"
-      }},
-      {"type":"Feature","properties":{ 
-        "part":"tandoori",
-        "id": 23,
-        "name": "Machha Tikka",
-        "description": "Pieces of bone less fish marinated with tandoori yoghurt sauce.",
-        "price": "139"
-      }},
-      {"type":"Feature","properties":{ 
-        "part":"tandoori",
-        "id": 24,
-        "name": "Machha Kesari Kabab",
-        "description": "Pieces boneless fish marinated with tandoori yoghurt sauce.",
-        "price": "149"
-      }},
+
       {"type":"Feature","properties":{ 
         "part":"chicken",
-        "id": 25,
+        "id": 14,
         "name": "Chicken Tikka Masala",
-        "description": "Tandoori roasted chicken pieces cooked with tomato, onion and fresh cream.",
+        "namecz": "Kuřecí Tikka Masala",
+        "description": "Tandoori roasted chicken pieces cooked with tomato, onion and fresh cream",
+        "descriptioncz": "Kousky kuřete opečené v peci Tandoori a následně povařené s rajčaty, cibulí a čerstvou smetanou",
         "price": "130"
       }},
       {"type":"Feature","properties":{ 
         "part":"chicken",
-        "id": 26,
-        "name": "Butter Chicken",
-        "description": "Tandoori roasted chicken pieces cooked with tomato, onion, cream and butter.",
-        "price": "130"
-      }},
-      {"type":"Feature","properties":{ 
-        "part":"chicken",
-        "id": 27,
+        "id": 15,
         "name": "Chicken Nepali Curry",
-        "description": "Pieces of chicken cooked in Nepali style with Nepali herbs.",
+        "namecz": "Kuřecí nepálské kari",
+        "description": "Pieces of chicken cooked in Nepali style with Nepali herbs",
+        "descriptioncz": "Kousky kuřecího masa vařené s nepálským kořením",
         "price": "120"
       }},
       {"type":"Feature","properties":{ 
         "part":"chicken",
-        "id":   28,
+        "id":   16,
         "name": "Chicken Korai",
-        "description": "Pieces of chicken cooked with tomato, onion, capsicum, Coriander and Nepali spices.",
+        "namecz": "Kuřecí Korai",
+        "description": "Pieces of chicken cooked with tomato, onion, capsicum, Coriander and Nepali spices",
+        "descriptioncz": "Kousky kuřecího masa vařené s rajčaty, cibulí, paprikou, koriandrem a nepálským kořením",
         "price": "120"
       }},
       {"type":"Feature","properties":{ 
         "part":"chicken",
-        "id": 29,
+        "id": 17,
         "name": "Chicken Korma",
-        "description": "Pieces of chicken cooked with fresh cream and mild Nepali spices.",
+        "namecz": "Kuřecí Korma",
+        "description": "Pieces of chicken cooked with fresh cream and mild Nepali spices",
+        "descriptioncz": "Kousky kuřecího masa vařené s čerstvou smetanou a jemným nepálským kořením",
         "price": "135"
       }},
       {"type":"Feature","properties":{ 
         "part":"chicken",
-        "id": 30,
+        "id": 18,
         "name": "Chicken Vindaloo",
+        "namecz": "Kuřecí Vindaloo",
         "description": "Pieces of chicken cooked with potato in a hot and sour vindaloo sauce.",
+        "descriptioncz": "Kousky kuřecího masa vařené s bramborami v pikantní omáčce",
         "price": "120"
       }},
       {"type":"Feature","properties":{ 
         "part":"chicken",
-        "id": 31,
-        "name": "Saffron Chicken Curry",
-        "description": "Pieces of chicken cooked  saffron sauce.",
-        "price": "140"
-      }},
-      {"type":"Feature","properties":{ 
-        "part":"chicken",
-        "id": 32,
+        "id": 19,
         "name": "Chicken Achar Curry",
-        "description": "Pieces of chicken cooked with achar masala.",
+        "namecz": "Kuřecí Achar Curry",
+        "description": "Pieces of chicken cooked with achar masala",
+        "descriptioncz": "Kousky kuřecího masa vařené s kořením Achar",
         "price": "120"
       }},
       {"type":"Feature","properties":{ 
         "part":"chicken",
-        "id": 33,
-        "name": "Chicken with Saaga",
-        "description": "Pieces of chicken with spinach and light masala.",
-        "price": "120"
-      }},
-      {"type":"Feature","properties":{ 
-        "part":"chicken",
-        "id": 34,
+        "id": 20,
         "name": "Chicken Mayalu",
+        "namecz": "Kuřecí Mayalu",
         "description": "Pieces of chicken with honey, dry fruits and Nepali spices.",
+        "descriptioncz": "Kousky kuřecího masa s medem, sušeným ovocem a nepálským kořením",
         "price": "139"
       }},
       {"type":"Feature","properties":{ 
         "part":"chicken",
-        "id": 35,
-        "name": "Chicken Mango",
-        "description": "Pieces of chicken with mango sauce and cream.",
-        "price": "139"
-      }},
-      {"type":"Feature","properties":{ 
-        "part":"chicken",
-        "id": 36,
+        "id": 21,
         "name": "Chicken and Prawn Curry",
-        "description": "", 
+        "namecz": "Kuřecí a krevetové kari",
+        "description": "Prawn and chicken cooked with tomatoes and Nepali spices", 
+        "descriptioncz": "Krevety a kuřecí maso vařené s rajčaty a nepálským kořením", 
         "price": "170"
       }},
-      {"type":"Feature","properties":{ 
-        "part":"chicken",
-        "id": 37,
-        "name": "Chicken Tikka Vindaloo",
-        "description": "", 
-        "price": "139"
-      }},
+
       {"type":"Feature","properties":{ 
         "part":"lamb",
-        "id": 38,
+        "id": 22,
         "name": "Lamb Rogan Josh",
-        "description": "Pieces of lamb with rogan josh sauce.",
+        "namecz": "Jehněčí Rogan Josh",
+        "description": "Pieces of lamb with rogan josh sauce",
+        "descriptioncz": "Kousky jehněčího s omáčkou Rogan Josh",
         "price": "169"
       }},
       {"type":"Feature","properties":{ 
         "part":"lamb",
-        "id": 39,
+        "id": 23,
         "name": "Lamb Korma",
-        "description": "Pieces of lamb cooked with fresh cream and mild Nepali spices.",
+        "namecz": "Jehněčí Korma",
+        "description": "Pieces of lamb cooked with fresh cream and mild Nepali spices",
+        "descriptioncz": "Kousky jehněčího vařené s čerstvou smetanou a jemným nepálským kořením",
         "price": "179"
       }},
       {"type":"Feature","properties":{ 
         "part":"lamb",
-        "id": 40,
+        "id": 24,
         "name": "Lamb Vindaloo",
-        "description": "Pieces of lamb cooked with potato in hot and sour sauce.",
+        "namecz": "Jehněčí Vindaloo",
+        "description": "Pieces of lamb cooked with potato in hot and sour sauce",
+        "descriptioncz": "Kousky jehněčího vařené s bramborami v pikantní omáčce",
         "price": "169"
       }},
       {"type":"Feature","properties":{ 
         "part":"lamb",
-        "id": 41,
+        "id": 25,
         "name": "Lamb with Saag",
-        "description": "Pieces of lamb cooked with spinach.",
+        "namecz": "Jehněčí se špenátem",
+        "description": "Pieces of lamb cooked with spinach",
+        "descriptioncz": "Kousky jehněčího vařené se špenátem",
         "price": "169"
       }},
       {"type":"Feature","properties":{ 
         "part":"lamb",
-        "id": 42,
-        "name": "Lamb with Prawn Curry",
-        "description": "Pieces of lamb and prawn Nepali spices.",
-        "price": "205"
-      }},
-      {"type":"Feature","properties":{ 
-        "part":"lamb",
-        "id": 43,
+        "id": 26,
         "name": "Lamb Mayalu Curry",
-        "description": "Pieces of lamb with honey, dry fruits and Nepali spices.",
+        "namecz": "Jehněčí Mayalu kari",
+        "description": "Pieces of lamb with honey, dry fruits and Nepali spices",
+        "descriptioncz": "Kousky jehněčího s medem, sušeným ovocem a nepálským kořením",
         "price": "179"
       }},
-      {"type":"Feature","properties":{ 
-        "part":"lamb",
-        "id": 44,
-        "name": "Lamb Mango",
-        "description": "Pieces of chicken with mango sauce.",
-        "price": "169"
-      }},
-      {"type":"Feature","properties":{ 
-        "part":"lamb",
-        "id": 45,
-        "name": "Mix Max Curry",
-        "description": "Lamb, Chicken, Prawn with Nepali spices.",
-        "price": "215"
-      }},
+
       {"type":"Feature","properties":{ 
         "part":"fish",
-        "id": 46,
+        "id": 27,
         "name": "Prawn Curry",
-        "description": "Peeled prawns cooked with fresh cream and mild Nepali spices.",
+        "namecz": "Krevetové kari",
+        "description": "Peeled prawns cooked with fresh cream and mild Nepali spices",
+        "descriptioncz": "Očištěné krevety vařené s čerstvou smetanou a nepálským kořením",
         "price": "200"
       }},
       {"type":"Feature","properties":{ 
         "part":"fish",
-        "id": 47,
-        "name": "Prawn Korma",
-        "description": "Peeled prawns cooked with fresh cream with grave.",
-        "price": "205"
-      }},
-      {"type":"Feature","properties":{ 
-        "part":"fish",
-        "id": 48,
-        "name": "Prawn Makhani",
-        "description": "Peeled prawns cooked with butter and Nepali sauce.",
-        "price": "205"
-      }},
-      {"type":"Feature","properties":{ 
-        "part":"fish",
-        "id": 49,
-        "name": "Prawn Vindaloo",
-        "description": "Peeled prawns with potato cooked in a hot and sour sauce.",
-        "price": "195"
-      }},
-      {"type":"Feature","properties":{ 
-        "part":"fish",
-        "id": 50,
+        "id": 28,
         "name": "Fish Curry",
-        "description": "Boneless fish cooked with fresh cream and mild Nepali spices.",
+        "namecz": "Rybí Curry",
+        "description": "Boneless fish cooked with fresh tomatoes, mustard seed and mild Nepali spices",
+        "descriptioncz": "Rybí maso bez kostí vařené s čerstvými rajčaty, hořčičným semínkem a jemným nepálským kořením",
         "price": "129"
       }},
-      {"type":"Feature","properties":{ 
-        "part":"fish",
-        "id": 51,
-        "name": "Fish Korma",
-        "description": "Boneless fish cooked with fresh cream and mild Nepali spices.",
-        "price": "139"
-      }},
-      {"type":"Feature","properties":{ 
-        "part":"fish",
-        "id": 52,
-        "name": "Fish Makhani",
-        "description": "Boneless fish cooked with butter and fresh cream.",
-        "price": "139"
-      }},
-      {"type":"Feature","properties":{ 
-        "part":"fish",
-        "id": 53,
-        "name": "Fish Vindaloo",
-        "description": "Boneless fish with potato with hot and sour sauce.",
-        "price": "129"
-      }},
+
       {"type":"Feature","properties":{ 
         "part":"vege",
-        "id": 54,
+        "id": 29,
         "name": "Paneer Butter Masala",
-        "description": "Home made cottage cheese cooked with tomato onion and fresh cream.",
+        "namecz": "Paneer Butter Masala",
+        "description": "Home made cottage cheese cooked with tomato onion and fresh cream",
+        "descriptioncz": "Domácí sýr Paneer vařený s rajčaty, cibulí a čerstvou smetanou",
         "price": "129"
       }},
       {"type":"Feature","properties":{ 
         "part":"vege",
-        "id": 55,
+        "id": 30,
         "name": "Shai Paneer",
-        "description": "Home made cottage cheese cooked with fresh and mild Nepali spices.",
+        "namecz": "Shai Paneer",
+        "description": "Home made cottage cheese cooked with fresh and mild Nepali spices",
+        "descriptioncz": "Domácí sýr Paneer vařený s čerstvými bylinkami a jemným nepálským kořením",
         "price": "139"
       }},
       {"type":"Feature","properties":{ 
         "part":"vege",
-        "id": 56,
+        "id": 31,
         "name": "Kadai Paneer",
-        "description": "Home made cottage cheese cooked with onion capsicum.",
+        "namecz": "Kadai Paneer",
+        "description": "Home made cottage cheese cooked with onion capsicum",
+        "descriptioncz": "Domácí sýr Paneer vařený s cibulí a paprikou",
         "price": "129"
       }},
       {"type":"Feature","properties":{ 
         "part":"vege",
-        "id": 57,
+        "id": 32,
         "name": "Aloo Gobi",
-        "description": "Potato and cauliflower cooked in Nepali spices.",
+        "namecz": "Aloo Gobi",
+        "description": "Potato and cauliflower cooked in Nepali spices",
+        "descriptioncz": "Brambory s květákem vařené s nepálským kořením",
         "price": "105"
       }},
       {"type":"Feature","properties":{ 
         "part":"vege",
-        "id": 58,
+        "id": 33,
         "name": "Aloo Saag",
-        "description": "Potato and spinach cooked in Nepali spices.",
+        "namecz": "Aloo Saag",
+        "description": "Potato and spinach cooked in Nepali spices",
+        "descriptioncz": "Brambory se špenátem vařené s nepálským kořením",
         "price": "125"
       }},
       {"type":"Feature","properties":{ 
         "part":"vege",
-        "id": 59,
-        "name": "Aloo Mushroom",
-        "description": "Potato and mushroom cooked in Nepali spices.",
-        "price": "125"
-      }},
-      {"type":"Feature","properties":{ 
-        "part":"vege",
-        "id": 60,
-        "name": "Dal Makhani",
-        "description": "Lentil cooked with butter and Nepali spices.",
-        "price": "105"
-      }},
-      {"type":"Feature","properties":{ 
-        "part":"vege",
-        "id": 61,
+        "id": 34,
         "name": "Dal Janeko",
-        "description": "Lentil cooked and fried with Nepali spices.",
+        "namecz": "Dal Janeko",
+        "description": "Lentil cooked and fried with Nepali spices",
+        "descriptioncz": "Luštěniny vařené a smažené s nepálském kořením",
         "price": "95"
       }},
       {"type":"Feature","properties":{ 
         "part":"vege",
-        "id": 62,
-        "name": "Aloo Panner Saaga",
-        "description": "Potato, home made cheese and spinach cooked with Nepali spices.",
+        "id": 35,
+        "name": "Aloo Matter Paneer",
+        "namecz": "Aloo Matter Paneer",
+        "description": "Potato, home made cottage cheese and peas cooked with Nepali spices",
+        "descriptioncz": "Brambory, domácí sýr Paneer a hrášek vařené s nepálským kořením",
         "price": "139"
       }},
       {"type":"Feature","properties":{ 
         "part":"vege",
-        "id": 63,
+        "id": 36,
         "name": "Vegetables Jalfrezi",
-        "description": "Vegetable mix cooked with Nepali spices.",
+        "namecz": "Zeleninové Jalfrezi",
+        "description": "Vegetable mix cooked with Nepali spices",
+        "descriptioncz": "Mix zeleniny vařený s nepálským kořením",
         "price": "115"
       }},
       {"type":"Feature","properties":{ 
         "part":"vege",
-        "id": 64,
-        "name": "Shabnam Curry",
-        "description": "Mix vegetable with homemade cottage cheese cooked in Nepali spices.",
-        "price": "139"
-      }},
-      {"type":"Feature","properties":{ 
-        "part":"vege",
-        "id": 65,
+        "id": 37,
         "name": "Vhindi Masala",
-        "description": "Ladyfinger cooked with Nepali spices.",
+        "namecz": "Vhindi Masala",
+        "description": "Ladyfinger cooked with Nepali spices",
+        "descriptioncz": "Okra (plod ibiškovce jedlého) vařená s nepálským kořením",
         "price": "105"
       }},
       {"type":"Feature","properties":{ 
         "part":"vege",
-        "id": 66,
+        "id": 38,
         "name": "Chana Masala",
-        "description": "Grams cooked with Nepali spices.",
+        "namecz": "Chana Masala",
+        "description": "Grams cooked with Nepali spices",
+        "descriptioncz": "Cizrna vařená s nepálským kořením",
         "price": "99"
       }},
-      {"type":"Feature","properties":{ 
-        "part":"vege",
-        "id": 67,
-        "name": "Rajma Masala",
-        "description": "Kidney beans cooked with Nepali spices.",
-        "price": "115"
-      }},
-      {"type":"Feature","properties":{ 
-        "part":"vege",
-        "id": 68,
-        "name": "Aloo Dam",
-        "description": "Potato with cheese fried in oil cooked with Nepali spices.",
-        "price": "115"
-      }},
+
       {"type":"Feature","properties":{ 
         "part":"tropical",
-        "id": 69,
-        "name": "Lamb MO MO (Steam/Fried)",
-        "description": "Dumpling of lamb with Nepali mo mo masala.",
-        "price": "195"
-      }},
-      {"type":"Feature","properties":{ 
-        "part":"tropical",
-        "id": 70,
-        "name": "Chicken MO MO (Steam/Fried)",
-        "description": "Dumpling of chicken with Nepali mo mo masala.",
-        "price": "165"
-      }},
-      {"type":"Feature","properties":{ 
-        "part":"tropical",
-        "id": 71,
-        "name": "Vegetable MO MO (Steam/Fried)",
-        "description": "Dumpling of vegetable with Nepali mo mo masala.",
-        "price": "135"
-      }},
-      {"type":"Feature","properties":{ 
-        "part":"tropical",
-        "id": 72,
-        "name": "Chicken Chowmein",
-        "description": "Pieces of chicken stir with noodles and vegetables.",
-        "price": "110"
-      }},
-      {"type":"Feature","properties":{ 
-        "part":"tropical",
-        "id": 73,
-        "name": "Mix Chowmein",
-        "description": "Lamb, chicken, prawn eggs stir with noodles and vegetabes.",
-        "price": "135"
-      }},
-      {"type":"Feature","properties":{ 
-        "part":"tropical",
-        "id": 74,
-        "name": "Vegetables Chowmein",
-        "description": "Mix vegetable stir with noodles.",
-        "price": "95"
-      }},
-      {"type":"Feature","properties":{ 
-        "part":"tropical",
-        "id": 75,
-        "name": "Chicken Thukpa",
-        "description": "Noddles soup with chicken slice.",
-        "price": "95"
-      }},
-      {"type":"Feature","properties":{ 
-        "part":"tropical",
-        "id": 76,
-        "name": "Mix Thukpa",
-        "description": "Noddles soup with lamb, prawn, chicken  and  vegetables slice.",
-        "price": "115"
-      }},
-      {"type":"Feature","properties":{ 
-        "part":"tropical",
-        "id": 77,
-        "name": "Vegetable Thukpa",
-        "description": "Noddles soup with vegetables slice.",
-        "price": "85"
-      }},
-      {"type":"Feature","properties":{ 
-        "part":"tropical",
-        "id": 78,
+        "id": 39,
         "name": "Chicken Roll",
-        "description": "Naan bread with vegetables roll chicken.",
+        "description": "",
         "price": "95"
       }},
       {"type":"Feature","properties":{ 
         "part":"tropical",
-        "id": 79,
+        "id": 40,
         "name": "Chicken Tikka Roll",
         "description": "",
         "price": "105"
       }},
       {"type":"Feature","properties":{ 
         "part":"tropical",
-        "id": 80,
+        "id": 41,
         "name": "Vegetables Roll",
         "description": "", 
         "price": "80"
       }},
+
       {"type":"Feature","properties":{ 
         "part":"nepali",
-        "id": 81,
-        "name": "Lamb, Dal Bhat Thali",
-        "description": "Pieces of lamb meat with lentil, vegetable, spinach, yoghurt, desert, pickle, salad, rice and naan.",
-        "price": "265"
+        "id": 42,
+        "name": "Dal Bhat Thali",
+        "namecz": "Dal Bhat Thali",
+        "description": "Pieces of lamb, chicken and prawn meats with lentil, vegetable, spinach, yoghurt, desert, <br/> pickle, salad, rice and naan",
+        "descriptioncz": "Kousky jehněčího, kuřecího a krevet s luštěninami, zeleninou, špenátem, jogurtem, salátem,<br/> rýží, naanem a dezertem",
+        "price": "325"
       }},
-      {"type":"Feature","properties":{ 
-        "part":"nepali",
-        "id": 82,
-        "name": "Chicken, Dal Bhat Thali",
-        "description": "Pieces of chicken meat with lentil, vegetable, spinach, yoghurt, desert, pickle, salad, rice and naan.",
-        "price": "245"
-      }},
-      {"type":"Feature","properties":{ 
-        "part":"nepali",
-        "id": 83,
-        "name": "Vegetable, Dal Bhat Thali",
-        "description": "Pieces of cheese meat with lentil, vegetable, spinach, yoghurt, desert, pickle, salad, rice and naan.",
-        "price": "225"
-      }},
+
       {"type":"Feature","properties":{ 
         "part":"rice",
-        "id": 84,
+        "id": 43,
         "name": "Plain Rice",
+        "namecz": "Rýže",
         "price": "40"
       }},
       {"type":"Feature","properties":{ 
         "part":"rice",
-        "id": 85,
+        "id": 44,
         "name": "Saffron Rice",
+        "namecz": "Šafránová rýže",
         "price": "45"
       }},
       {"type":"Feature","properties":{ 
         "part":"rice",
-        "id": 86,
+        "id": 45,
         "name": "Jeera Rice",
+        "namecz": "Rýže Jeera",
         "price": "45"
       }},
       {"type":"Feature","properties":{ 
         "part":"rice",
-        "id": 87,
-        "name": "Peas Rice",
-        "price": "45"
-      }},
-      {"type":"Feature","properties":{ 
-        "part":"rice",
-        "id": 88,
+        "id": 46,
         "name": "Mint Rice",
+        "namecz": "Mátová rýže",
         "price": "45"
       }},
       {"type":"Feature","properties":{ 
         "part":"rice",
-        "id": 89,
+        "id": 47,
         "name": "Kashmiri Rice",
+        "namecz": "Kašmírová rýže",
         "price": "55"
       }},
+
       {"type":"Feature","properties":{ 
         "part":"naan",
-        "id": 90,
+        "id": 48,
         "name": "Plain Naan",
+        "namecz": "Chléb Naan",
         "price": "35"
       }},
       {"type":"Feature","properties":{ 
         "part":"naan",
-        "id": 91,
+        "id": 49,
         "name": "Garlic Naan",
+        "namecz": "Černekový Naan",
         "price": "40"
       }},
       {"type":"Feature","properties":{ 
         "part":"naan",
-        "id": 92,
+        "id": 50,
         "name": "Cheese Naan",
+        "namecz": "Sýrový Naan",
         "price": "55"
       }},
       {"type":"Feature","properties":{ 
         "part":"naan",
-        "id": 93,
+        "id": 51,
         "name": "Mint Naan",
+        "namecz": "Mátový Naan",
         "price": "45"
       }},
       {"type":"Feature","properties":{ 
         "part":"naan",
-        "id": 94,
+        "id": 52,
         "name": "Kashmiri Naan",
+        "namecz": "Kašmírový Naan",
         "price": "49"
       }},
       {"type":"Feature","properties":{ 
         "part":"naan",
-        "id": 95,
+        "id": 53,
         "name": "Onion Naan",
+        "namecz": "Cibulový Naan",
         "price": "40"
       }},
       {"type":"Feature","properties":{ 
         "part":"naan",
-        "id": 96,
+        "id": 54,
         "name": "Tandoori Aloo Parotha",
+        "namecz": "Tandoori Aloo Parotha",
         "price": "49"
       }},
-      {"type":"Feature","properties":{ 
-        "part":"naan",
-        "id": 97, 
-        "name": "Cheese and Onion Naan",
-        "price": "55"
-      }},
+
       {"type":"Feature","properties":{ 
         "part":"salad",
-        "id": 98,
-        "name": "Traditional Salad",
+        "id": 55,
+        "name": "Vegetables Salad", 
+        "namecz": "Zeleninový salát", 
         "price": "65"
       }},
       {"type":"Feature","properties":{ 
         "part":"salad",
-        "id": 99,
-        "name": "Mix Vegetables Salad with Cheese",
-        "price": "75"
-      }},
-      {"type":"Feature","properties":{ 
-        "part":"salad",
-        "id": 100,
-        "name": "Tikka Vegetables Salad", 
-        "price": "90"
-      }},
-      {"type":"Feature","properties":{ 
-        "part":"salad",
-        "id": 101,
+        "id": 56,
         "name": "Tomatoes Chutney", 
+        "namecz": "Rajčatové čatný", 
         "price": "35"
       }},
       {"type":"Feature","properties":{ 
         "part":"salad",
-        "id": 102,
+        "id": 57,
         "name": "Mango Chutney",
+        "namecz": "Mangové čatný", 
         "price": "35"
       }},
       {"type":"Feature","properties":{ 
         "part":"salad",
-        "id": 103,
+        "id": 58,
         "name": "Mix Pickle",
+        "namecz": "Mix Pickle",
         "price": "35"
       }},
       {"type":"Feature","properties":{ 
         "part":"salad",
-        "id": 104,
+        "id": 59,
         "name": "Mix Raita",
+        "namecz": "Mix Raita",
         "price": "35"
       }},
       {"type":"Feature","properties":{ 
         "part":"salad",
-        "id": 105,
+        "id": 60,
         "name": "Plain Raita",
+        "namecz": "Raita",
         "price": "30"
       }},
+
       {"type":"Feature","properties":{ 
         "part":"desserts",
-        "id": 106,
+        "id": 61,
         "name": "Rasgulla",
         "price": "55"
       }},
       {"type":"Feature","properties":{ 
         "part":"desserts",
-        "id": 107,
+        "id": 62,
         "name": "Gulab Jamun",
         "price": "55"
       }},
-      {"type":"Feature","properties":{ 
-        "part":"desserts",
-        "id": 108,
-        "name": "Dudh Bari", 
-        "price": "75"
-      }},
+
       {"type":"Feature","properties":{ 
         "part":"drink",
-        "id": 109,
+        "id": 63,
         "name": "Nepali Masala Cheeya",
+        "namecz": "Nepálský Masala čaj",
         "price": "40"
       }},
       {"type":"Feature","properties":{ 
         "part":"drink",
-        "id": 110,
+        "id": 64,
+        "namecz": "Nepálský Masala čaj s mlékem",
         "name": "Nepali Milk Masala Chee",
         "price": "45"
       }},
       {"type":"Feature","properties":{ 
         "part":"drink",
-        "id": 111,
-        "name": "Mango Lassy",
+        "id": 65,
+        "name": "Mango Lassi",
+        "namecz": "Mango Lassi",
         "price": "47"
       }},
+
+
+
       {"type":"Feature","properties":{ 
-        "part":"drink",
-        "id": 112,
-        "name": "Banana Lassy",
-        "price": "47"
+        "part":"beer",
+        "name": "Pilsner Urquel 0,5 l",
+        "namecz": "Pilsner Urquel 0,5 l",
+        "price": "35"
       }},
       {"type":"Feature","properties":{ 
-        "part":"drink",
-        "id": 113,
-        "name": "Sweet Lassy",
-        "price": "47"
+        "part":"beer",
+        "name": "Pilsner Urquel 0,3 l",
+        "namecz": "Pilsner Urquel 0,3 l",
+        "price": "25"
       }},
       {"type":"Feature","properties":{ 
-        "part":"drink",
-        "id": 114,
-        "name": "Salt Lassy ",
-        "price": "47"
+        "part":"beer",
+        "name": "Bernard non-filtered 10° 0,5 l",
+        "namecz": "Bernard nefiltrovaný 10° 0,5 l",
+        "price": "28"
+      }},
+      {"type":"Feature","properties":{ 
+        "part":"beer",
+        "name": "Bernard non-filtered 10° 0,3 l",
+        "namecz": "Bernard nefiltrovaný 10° 0,3 l",
+        "price": "20"
+      }},
+      {"type":"Feature","properties":{ 
+        "part":"beer",
+        "name": "Bernard Bohemian Ale 0,3 l",
+        "namecz": "Bernard Bohemian Ale 0,3 l",
+        "price": "35"
+      }},
+      {"type":"Feature","properties":{ 
+        "part":"beer",
+        "name": "Radegast Birell (alcohol free) 0,33 l",
+        "namecz": "Radegast Birell 0,33 l",
+        "price": "28"
+      }},
+      {"type":"Feature","properties":{ 
+        "part":"beer",
+        "name": "Radegast Birell (alcohol free) semi-dark 0,33 l",
+        "namecz": "Radegast Birell polotmavý 0,33 l",
+        "price": "28"
+      }},
+      {"type":"Feature","properties":{ 
+        "part":"beer",
+        "name": "Radegast Birell (alcohol free) Ginger 0,33 l",
+        "namecz": "Radegast Birell zázvor 0,33 l",
+        "price": "28"
+      }},
+
+      {"type":"Feature","properties":{ 
+        "part":"nealko",
+        "name": "Radegast Birell (alcohol free) Ginger 0,33 l",
+        "namecz": "Radegast Birell zázvor 0,33 l",
+        "price": "28"
+      }},
+
+      {"type":"Feature","properties":{ 
+        "part":"nealko",
+        "name": "Coca-Cola 0,33 l",
+        "namecz": "Coca-Cola 0,33 l",
+        "price": "28"
+      }},
+      {"type":"Feature","properties":{ 
+        "part":"nealko",
+        "name": "Coca-Cola Light 0,33 l",
+        "namecz": "Coca-Cola Light 0,33 l",
+        "price": "28"
+      }},
+      {"type":"Feature","properties":{ 
+        "part":"nealko",
+        "name": "Coca-Cola Cherry 0,33 l",
+        "namecz": "Coca-Cola Cherry 0,33 l",
+        "price": "28"
+      }},
+      {"type":"Feature","properties":{ 
+        "part":"nealko",
+        "name": "Kinley Tonic 0,25 l",
+        "namecz": "Kinley Tonic 0,25 l",
+        "price": "28"
+      }},
+      {"type":"Feature","properties":{ 
+        "part":"nealko",
+        "name": "Kinley Ginger Ale 0,25 l",
+        "namecz": "Kinley Ginger Ale 0,25 l",
+        "price": "28"
+      }},
+      {"type":"Feature","properties":{ 
+        "part":"nealko",
+        "name": "Fanta Orange 0,25 l",
+        "namecz": "Fanta Orange 0,25 l",
+        "price": "28"
+      }},
+      {"type":"Feature","properties":{ 
+        "part":"nealko",
+        "name": "Sprite 0,33 l",
+        "namecz": "Sprite 0,33 l",
+        "price": "28"
+      }},
+      {"type":"Feature","properties":{ 
+        "part":"nealko",
+        "name": "Nestea Broskev (Peach) 0,2 l",
+        "namecz": "Nestea Broskev 0,2 l",
+        "price": "26"
+      }},
+      {"type":"Feature","properties":{ 
+        "part":"nealko",
+        "name": "Nestea Zelený čaj Citrus (Green tea Lemon) 0,2 l",
+        "namecz": "Nestea Zelený čaj Citrus 0,2 l",
+        "price": "26"
+      }},
+      {"type":"Feature","properties":{ 
+        "part":"nealko",
+        "name": "Cappy Ananas (Pineapple) 100% 0,2 l",
+        "namecz": "Cappy Ananas 100% 0,2 l",
+        "price": "30"
+      }},
+      {"type":"Feature","properties":{ 
+        "part":"nealko",
+        "name": "Cappy Černý rybíz (Blackcurrant) 0,2 l",
+        "namecz": "Cappy Černý rybíz 0,2 l",
+        "price": "30"
+      }},
+      {"type":"Feature","properties":{ 
+        "part":"nealko",
+        "name": "Cappy Grep (Grepfruit) 55% 0,2 l",
+        "namecz": "Cappy Grep 55% 0,2 l",
+        "price": "30"
+      }},
+      {"type":"Feature","properties":{ 
+        "part":"nealko",
+        "name": "Cappy Hruška (Pear) 0,2 l",
+        "namecz": "Cappy Hruška 0,2 l",
+        "price": "30"
+      }},
+      {"type":"Feature","properties":{ 
+        "part":"nealko",
+        "name": "Cappy Jablko (Apple) 20% 0,2 l",
+        "namecz": "Cappy Jablko 20% 0,2 l",
+        "price": "30"
+      }},
+      {"type":"Feature","properties":{ 
+        "part":"nealko",
+        "name": "Cappy Jahoda (Strawberry) 0,2 l",
+        "namecz": "Cappy Jahoda Nektar 0,2 l",
+        "price": "30"
+      }},
+      {"type":"Feature","properties":{ 
+        "part":"nealko",
+        "name": "Cappy Meruňka (Apricot) 26% 0,2 l",
+        "namecz": "Cappy Meruňka 26% 0,2 l",
+        "price": "30"
+      }},
+      {"type":"Feature","properties":{ 
+        "part":"nealko",
+        "name": "Cappy Multivitamin 0,2 l",
+        "namecz": "Cappy Multivitamin Nektar 0,2 l",
+        "price": "30"
+      }},
+      {"type":"Feature","properties":{ 
+        "part":"nealko",
+        "name": "Cappy Pomeranč (Orange) 60% 0,2 l",
+        "namecz": "Cappy Pomeranč 60% 0,2 l",
+        "price": "30"
+      }},
+      {"type":"Feature","properties":{ 
+        "part":"nealko",
+        "name": "Bon aqua water",
+        "namecz": "Bon aqua voda",
+        "price": "28"
+      }},
+
+      {"type":"Feature","properties":{ 
+        "part":"energy",
+        "name": "Red Bull 0,25 l",
+        "price": "55"
+      }},
+
+      {"type":"Feature","properties":{ 
+        "part":"hot",
+        "namecz": "Čaj",
+        "name": "Tea",
+        "price": "35"
+      }},
+      {"type":"Feature","properties":{ 
+        "part":"hot",
+        "name": "Expresso",
+        "namecz": "Expresso",
+        "price": "40"
+      }},
+
+      {"type":"Feature","properties":{ 
+        "part":"whiskey",
+        "name": "Johny Walker Red Label 0,04 l",
+        "price": "50"
+      }},
+      {"type":"Feature","properties":{ 
+        "part":"whiskey",
+        "name": "Johny Walker Red Label 0,02 l",
+        "price": "25"
+      }},
+      {"type":"Feature","properties":{ 
+        "part":"whiskey",
+        "name": "Johny Walker Black Label 0,04 l",
+        "price": "90"
+      }},
+      {"type":"Feature","properties":{ 
+        "part":"whiskey",
+        "name": "Johny Walker Black Label 0,02 l",
+        "price": "45"
+      }},
+      {"type":"Feature","properties":{ 
+        "part":"whiskey",
+        "name": "Chivas Regal 12 YO 0,04 l",
+        "price": "70"
+      }},
+      {"type":"Feature","properties":{ 
+        "part":"whiskey",
+        "name": "Chivas Regal 12 YO 0,02 l",
+        "price": "35"
+      }},
+      {"type":"Feature","properties":{ 
+        "part":"whiskey",
+        "name": "Chivas Regal Extra 0,04 l",
+        "price": "100"
+      }},
+      {"type":"Feature","properties":{ 
+        "part":"whiskey",
+        "name": "Chivas Regal Extra 0,02 l",
+        "price": "50"
+      }},
+      {"type":"Feature","properties":{ 
+        "part":"whiskey",
+        "name": "J&B 0,04 l",
+        "price": "45"
+      }},
+      {"type":"Feature","properties":{ 
+        "part":"whiskey",
+        "name": "J&B 0,02 l",
+        "price": "25"
+      }},
+      {"type":"Feature","properties":{ 
+        "part":"whiskey",
+        "name": "Jameson 0,04 l",
+        "price": "50"
+      }},
+      {"type":"Feature","properties":{ 
+        "part":"whiskey",
+        "name": "Jameson 0,02 l",
+        "price": "25"
+      }},
+      {"type":"Feature","properties":{ 
+        "part":"whiskey",
+        "name": "Bushmills Original 0,04 l",
+        "price": "50"
+      }},
+      {"type":"Feature","properties":{ 
+        "part":"whiskey",
+        "name": "Bushmills Original 0,02 l",
+        "price": "25"
+      }},
+      {"type":"Feature","properties":{ 
+        "part":"whiskey",
+        "name": "Bushmills Black Bush 0,04 l",
+        "price": "70"
+      }},
+      {"type":"Feature","properties":{ 
+        "part":"whiskey",
+        "name": "Bushmills Black Bush 0,02 l",
+        "price": "35"
+      }},
+      {"type":"Feature","properties":{ 
+        "part":"whiskey",
+        "name": "Jack Daniels Tennessee Whiskey 0,04 l",
+        "price": "65"
+      }},
+      {"type":"Feature","properties":{ 
+        "part":"whiskey",
+        "name": "Jack Daniels Tennessee Whiskey 0,02 l",
+        "price": "33"
+      }},
+      {"type":"Feature","properties":{ 
+        "part":"whiskey",
+        "name": "Jim Beam 0,04 l",
+        "price": "45"
+      }},
+      {"type":"Feature","properties":{ 
+        "part":"whiskey",
+        "name": "Jim Beam 0,02 l",
+        "price": "25"
+      }},
+
+      {"type":"Feature","properties":{ 
+        "part":"vodka",
+        "name": "Vodka Absolut 0,04 l",
+        "price": "40"
+      }},
+      {"type":"Feature","properties":{ 
+        "part":"vodka",
+        "name": "Vodka Absolut 0,02 l",
+        "price": "20"
+      }},
+      {"type":"Feature","properties":{ 
+        "part":"vodka",
+        "name": "Finlandia 0,04 l",
+        "price": "40"
+      }},
+      {"type":"Feature","properties":{ 
+        "part":"vodka",
+        "name": "Finlandia 0,02 l",
+        "price": "20"
+      }},
+
+      {"type":"Feature","properties":{ 
+        "part":"likery",
+        "name": "Becherovka Originál 0,04 l",
+        "price": "40"
+      }},
+      {"type":"Feature","properties":{ 
+        "part":"likery",
+        "name": "Becherovka Originál 0,02 l",
+        "price": "20"
+      }},
+      {"type":"Feature","properties":{ 
+        "part":"likery",
+        "name": "Becherovka Lemond 0,04 l",
+        "price": "40"
+      }},
+      {"type":"Feature","properties":{ 
+        "part":"likery",
+        "name": "Becherovka Lemond 0,02 l",
+        "price": "20"
+      }},
+      {"type":"Feature","properties":{ 
+        "part":"likery",
+        "name": "Fernet Stock 0,04 l",
+        "price": "40"
+      }},
+      {"type":"Feature","properties":{ 
+        "part":"likery",
+        "name": "Fernet Stock 0,02 l",
+        "price": "20"
+      }},
+      {"type":"Feature","properties":{ 
+        "part":"likery",
+        "name": "Jagermeister 0,04 l",
+        "price": "50"
+      }},
+      {"type":"Feature","properties":{ 
+        "part":"likery",
+        "name": "Jagermeister 0,02 l",
+        "price": "25"
+      }},
+      {"type":"Feature","properties":{ 
+        "part":"likery",
+        "name": "Baileys 0,04 l",
+        "price": "50"
+      }},
+      {"type":"Feature","properties":{ 
+        "part":"likery",
+        "name": "Baileys 0,02 l",
+        "price": "25"
+      }},
+      {"type":"Feature","properties":{ 
+        "part":"likery",
+        "name": "Božkov Griotka 0,04 l",
+        "price": "35"
+      }},
+      {"type":"Feature","properties":{ 
+        "part":"likery",
+        "name": "Božkov Griotka 0,02 l",
+        "price": "18"
+      }},
+      {"type":"Feature","properties":{ 
+        "part":"likery",
+        "name": "Božkov Vaječný likér 0,04 l",
+        "price": "35"
+      }},
+      {"type":"Feature","properties":{ 
+        "part":"likery",
+        "name": "Božkov Vaječný likér 0,02 l",
+        "price": "18"
+      }},
+
+      {"type":"Feature","properties":{ 
+        "part":"rum",
+        "name": "Božkov Rum 0,04 l",
+        "price": "35"
+      }},
+      {"type":"Feature","properties":{ 
+        "part":"rum",
+        "name": "Božkov Rum 0,02 l",
+        "price": "18"
+      }},
+      {"type":"Feature","properties":{ 
+        "part":"rum",
+        "name": "Bacardi Carta Blanca 0,04 l",
+        "price": "50"
+      }},
+      {"type":"Feature","properties":{ 
+        "part":"rum",
+        "name": "Bacardi Carta Blanca 0,02 l",
+        "price": "25"
+      }},
+      {"type":"Feature","properties":{ 
+        "part":"rum",
+        "name": "Havana Club Aňejo Blanco 0,04 l",
+        "price": "50"
+      }},
+      {"type":"Feature","properties":{ 
+        "part":"rum",
+        "name": "Havana Club Aňejo Blanco 0,02 l",
+        "price": "25"
+      }},
+      {"type":"Feature","properties":{ 
+        "part":"rum",
+        "name": "Stroh Original '80' 0,04 l",
+        "price": "60"
+      }},
+      {"type":"Feature","properties":{ 
+        "part":"rum",
+        "name": "Stroh Original '80' 0,02 l",
+        "price": "30"
+      }},
+
+      {"type":"Feature","properties":{ 
+        "part":"gin",
+        "name": "Beefeater 0,04 l",
+        "price": "50"
+      }},
+      {"type":"Feature","properties":{ 
+        "part":"gin",
+        "name": "Beefeater 0,02 l",
+        "price": "25"
+      }},
+      {"type":"Feature","properties":{ 
+        "part":"gin",
+        "name": "Hendricks 0,04 l",
+        "price": "75"
+      }},
+      {"type":"Feature","properties":{ 
+        "part":"gin",
+        "name": "Hendricks 0,02 l",
+        "price": "40"
+      }},
+
+      {"type":"Feature","properties":{ 
+        "part":"tequilla",
+        "name": "Olmeca Blanco 0,04 l",
+        "price": "60"
+      }},
+      {"type":"Feature","properties":{ 
+        "part":"tequilla",
+        "name": "Olmeca Blanco 0,02 l",
+        "price": "30"
+      }},
+      {"type":"Feature","properties":{ 
+        "part":"tequilla",
+        "name": "Olmeca Reposado Gold 0,04 l",
+        "price": "60"
+      }},
+      {"type":"Feature","properties":{ 
+        "part":"tequilla",
+        "name": "Olmeca Reposado Gold 0,02 l",
+        "price": "30"
+      }},
+
+      {"type":"Feature","properties":{ 
+        "part":"ostatni",
+        "name": "Stará Myslivecká Premium 0,04 l",
+        "price": "45"
+      }},
+      {"type":"Feature","properties":{ 
+        "part":"ostatni",
+        "name": "Stará Myslivecká Premium 0,02 l",
+        "price": "25"
+      }},
+      {"type":"Feature","properties":{ 
+        "part":"ostatni",
+        "name": "Metaxa 5* 0,04 l",
+        "price": "50"
+      }},
+      {"type":"Feature","properties":{ 
+        "part":"ostatni",
+        "name": "Metaxa 5* 0,02 l",
+        "price": "25"
+      }},
+      {"type":"Feature","properties":{ 
+        "part":"ostatni",
+        "name": "Metaxa 7* 0,04 l",
+        "price": "70"
+      }},
+      {"type":"Feature","properties":{ 
+        "part":"ostatni",
+        "name": "Metaxa 7* 0,02 l",
+        "price": "35"
+      }},
+
+      {"type":"Feature","properties":{ 
+        "part":"sampus",
+        "name": "Bohemia Sekt Brut 0,75 l",
+        "price": "245"
+      }},
+      {"type":"Feature","properties":{ 
+        "part":"sampus",
+        "name": "Bohemia Sekt Demi 0,75 l",
+        "price": "245"
+      }},
+
+      {"type":"Feature","properties":{ 
+        "part":"vino",
+        "name": "Víno 0,2 l / Glass of wine 0,2 l",
+        "price": "40"
+      }},
+      {"type":"Feature","properties":{ 
+        "part":"vino",
+        "name": "Víno láhev 0,75 l / Bottle of wine 0,75 l",
+        "price": "190"
       }}]}
