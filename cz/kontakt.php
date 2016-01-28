@@ -8,10 +8,9 @@
     <!-- HLAVNÍ TĚLO STRÁNKY, ZDE EDITOVAT VEŠKERÝ TEXT -->
     <div class="hlavni container"> 
       <div class="row container">
-        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        
           <h2 class="page-header">The Kathmandu</h2>
-        </div>
-        <div class="col-lg-8 col-md-8 col-sm-6 col-xs-12">
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
           <p>
           <strong>NEPALI RESTAURANT</strong><br />
           Dolní náměstí 25/40 <br />
@@ -29,10 +28,17 @@
             Po-So	11.00 - 22.00	<br />
             Ne	11.00 - 20.00	<br />
           </p>
+            <h4>Akceptujeme tyto stravenky:</h4>
+          <p>
+            <img alt="stravenky checque ticket gastro" src="../files/img/stravenky.png" />
+          </p>
+
+        </div> <!-- main collumn content -->
+
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
           <div class="container">
             <div id="map-canvas"></div>
           </div>
-        </div> <!-- main collumn content -->
-
+          </div>
   <?php include_once("page_down_content.html") ?>
 

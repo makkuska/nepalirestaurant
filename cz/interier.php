@@ -8,13 +8,11 @@
     <!-- HLAVNÍ TĚLO STRÁNKY, ZDE EDITOVAT VEŠKERÝ TEXT -->
     <div class="hlavni container"> 
       <div class="row container">
-        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
           <h2 class="page-header">Interiér</h2>
-        </div>
-        <div class="col-lg-8 col-md-8 col-sm-6 col-xs-12">
           <p>
           Zde budou fotky interiéru.
 
+        <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-12 col-xs-12">
           <script type="text/javascript" >
             $(document).ready(function(){
             $('.foto').bxSlider({

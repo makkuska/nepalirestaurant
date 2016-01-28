@@ -1,769 +1,685 @@
-{"features":[{"type":"Feature","properties":{
-      "part":"starters",
+{ "Starters": [ 
+     {
       "id": 1,
       "name": "Onion Bhaji",
       "size": "150 g",
       "description": "Slices onion with light Nepali spices with gram flour and oil deep fired.",
       "price": "69"
-      }},
-      {"type":"Feature","properties":{ 
-      "part":"starters",
+      },
+      { 
       "id": 2,
       "name": "Paneer Pakora",
       "size": "150 g",
       "description": "Home made cottage cheese in gram flour butter and oil deep fried.",
       "price": "79"
-      }},
-      {"type":"Feature","properties":{ 
-      "part":"starters",
+      },
+      {
         "id": 3,
         "name": "Chicken Pakora",
         "size": "150 g",
         "description": "Cubes of chicken with Nepali spices gram batter and oil deep fried.",
         "price": "79"
-      }},
-      {"type":"Feature","properties":{ 
-      "part":"starters",
+      },
+      {
         "id": 4,
         "name": "Masala Papad",
         "size": "2 pc",
         "description": "Fried papad with chop onion, cucumber, tomato, carrot and chat masala with lime juice.",
         "price": "40"
-      }},
-      {"type":"Feature","properties":{ 
-      "part":"starters",
+      },
+      {
         "id": 5, 
         "name": "Papad",
         "size": "1 pc",
         "description": "",
         "price": "15"
-      }},
-      {"type":"Feature","properties":{ 
-      "part":"starters",
+        },
+      {
         "id": 6,
         "name": "Mushroom Tikka",
         "size": "150 g",
         "description": "Fresh mushroom marinated with tandoori sauce cooked in clay oven.",
         "price": "69"
-      }},
-      {"type":"Feature","properties":{ 
-      "part":"starters",
+      },
+      {
         "id": 7,
         "name": "Butterfly prawn Pakora",
         "size": "150 g",
         "description": "Prawn pieces with gram flour batter and deep oil fried.",
         "price": "155"
-      }},
-      {"type":"Feature","properties":{ 
-      "part":"starters",
+      },
+      {
         "id": 8,
         "name": "Aloo Chop",
         "size": "150 g",
         "description": "Slices potato pieces with gram flour batter and deep oil fried.",
         "price": "69"
-      }},
-      {"type":"Feature","properties":{ 
-      "part":"soups",
+      }
+  ],
+  "Soups": [
+      {
         "id": 9,
         "name": "Tomato Soup",
         "price": "40"
-      }},
-      {"type":"Feature","properties":{ 
-      "part":"soups",
+      },
+      {
         "id": 10,
         "name": "Bean Soup",
         "price": "40"
-      }},
-      {"type":"Feature","properties":{ 
-      "part":"soups",
+      },
+      {
         "id": 11,
         "name": "Garlic Soup",
         "price": "40"
-      }},
-      {"type":"Feature","properties":{ 
-      "part":"soups",
+      },
+      {
         "id": 12,
         "name": "Chicken Soup",
         "price": "40"
-      }},
-      {"type":"Feature","properties":{ 
-      "part":"soups",
+      },
+      {
         "id": 13,
         "name": "Mushroom Soup",
         "price": "40"
-      }},
-      {"type":"Feature","properties":{ 
-      "part":"soups",
+      },
+      {
         "id": 14,
         "name": "Hot and Sour Soup",
         "price": "40"
-      }},
-      {"type":"Feature","properties":{ 
-        "part":"tandoori",
+      }
+  ],
+  "Tandoori Specials": [
+      { 
         "id": 15,
         "name": "Chicken Tikka",
         "description": "Pieces of chicken marinated in yoghurt and Nepali spices.",
         "price": "130"
-      }},
-      {"type":"Feature","properties":{ 
-        "part":"tandoori",
+      },
+      {
         "id": 16,
         "name": "Chicken Garlic Tikka",
         "description": "Pieces of chicken marinated in garlic sauce, yoghurt and Nepali spices.",
         "price": "139"
-      }},
-      {"type":"Feature","properties":{ 
-        "part":"tandoori",
+      },
+      {
         "id": 17,
         "name": "Chicken Ginger Tikka",
         "description": "Pieces of chicken marinated in ginger sauce with yoghurt and Nepali spices.",
         "price": "139"
-      }},
-      {"type":"Feature","properties":{ 
-        "part":"tandoori",
+      },
+      {
         "id": 18,
         "name": "Chicken Mali Tikka",
         "description": "Pieces of chicken marinated with creamy sauce.",
         "price": "139"
-      }},
-      {"type":"Feature","properties":{ 
-        "part":"tandoori",
+      },
+      {
         "id": 19,
         "name": "Chicken Hariyo Tikka",
         "description": "Pieces of chicken marinated with mint and coriander sauce yoghurt.",
         "price": "149"
-      }},
-      {"type":"Feature","properties":{ 
-        "part":"tandoori",
+      },
+      {
         "id": 20,
         "name": "Chicken Tandoori",
         "description": "2 chicken quarters marinated in yoghurt and Nepali spices.",
         "price": "190"
-      }},
-      {"type":"Feature","properties":{ 
-        "part":"tandoori",
+      },
+      {
         "id": 21,
         "name": "Saffron Chicken Tikka",
         "description": "Pieces of chicken marinated with saffron and yoghurt and Nepali spices.",
         "price": "139"
-      }},
-      {"type":"Feature","properties":{ 
-        "part":"tandoori",
+      },
+      {
         "id": 22,
         "name": "Chicken Sekuwa",
         "description": "Pieces of chicken with Lemon and light Nepali spices.",
         "price": "125"
-      }},
-      {"type":"Feature","properties":{ 
-        "part":"tandoori",
+      },
+      {
         "id": 23,
         "name": "Machha Tikka",
         "description": "Pieces of bone less fish marinated with tandoori yoghurt sauce.",
         "price": "139"
-      }},
-      {"type":"Feature","properties":{ 
-        "part":"tandoori",
+      },
+      {
         "id": 24,
         "name": "Machha Kesari Kabab",
-        "description": "Pieces boneless fish marinated with tandoori yoghurt sauce.",
+        "description": "Pieces boneless fish marinated with tandoori	yoghurt sauce.",
         "price": "149"
-      }},
-      {"type":"Feature","properties":{ 
-        "part":"chicken",
+      }
+  ],
+  "Chicken Curry Dishes (200 g)": [
+      {
         "id": 25,
         "name": "Chicken Tikka Masala",
-        "description": "Tandoori roasted chicken pieces cooked with tomato, onion and fresh cream.",
+        "description": "Tandoori roasted chicken pieces cooked with tomato,	onion and fresh cream.",
         "price": "130"
-      }},
-      {"type":"Feature","properties":{ 
-        "part":"chicken",
+      },
+      {
         "id": 26,
         "name": "Butter Chicken",
         "description": "Tandoori roasted chicken pieces cooked with tomato, onion, cream and butter.",
         "price": "130"
-      }},
-      {"type":"Feature","properties":{ 
-        "part":"chicken",
+      },
+      {
         "id": 27,
         "name": "Chicken Nepali Curry",
         "description": "Pieces of chicken cooked in Nepali style with Nepali herbs.",
         "price": "120"
-      }},
-      {"type":"Feature","properties":{ 
-        "part":"chicken",
+      },
+      {
         "id":   28,
         "name": "Chicken Korai",
         "description": "Pieces of chicken cooked with tomato, onion, capsicum, Coriander and Nepali spices.",
         "price": "120"
-      }},
-      {"type":"Feature","properties":{ 
-        "part":"chicken",
+      },
+      {
         "id": 29,
         "name": "Chicken Korma",
         "description": "Pieces of chicken cooked with fresh cream and mild Nepali spices.",
         "price": "135"
-      }},
-      {"type":"Feature","properties":{ 
-        "part":"chicken",
+      },
+      {
         "id": 30,
         "name": "Chicken Vindaloo",
-        "description": "Pieces of chicken cooked with potato in a hot and sour vindaloo sauce.",
+        "description": "Pieces of chicken cooked with potato in a hot	and sour vindaloo sauce.",
         "price": "120"
-      }},
-      {"type":"Feature","properties":{ 
-        "part":"chicken",
+      },
+      {
         "id": 31,
         "name": "Saffron Chicken Curry",
         "description": "Pieces of chicken cooked  saffron sauce.",
         "price": "140"
-      }},
-      {"type":"Feature","properties":{ 
-        "part":"chicken",
+      },
+      {
         "id": 32,
         "name": "Chicken Achar Curry",
         "description": "Pieces of chicken cooked with achar masala.",
         "price": "120"
-      }},
-      {"type":"Feature","properties":{ 
-        "part":"chicken",
+      },
+      {
         "id": 33,
         "name": "Chicken with Saaga",
         "description": "Pieces of chicken with spinach and light masala.",
         "price": "120"
-      }},
-      {"type":"Feature","properties":{ 
-        "part":"chicken",
+      },
+      {
         "id": 34,
         "name": "Chicken Mayalu",
         "description": "Pieces of chicken with honey, dry fruits and Nepali spices.",
         "price": "139"
-      }},
-      {"type":"Feature","properties":{ 
-        "part":"chicken",
+      },
+      {
         "id": 35,
         "name": "Chicken Mango",
         "description": "Pieces of chicken with mango sauce and cream.",
         "price": "139"
-      }},
-      {"type":"Feature","properties":{ 
-        "part":"chicken",
+      },
+      {
         "id": 36,
         "name": "Chicken and Prawn Curry",
         "description": "", 
         "price": "170"
-      }},
-      {"type":"Feature","properties":{ 
-        "part":"chicken",
+      },
+      {
         "id": 37,
         "name": "Chicken Tikka Vindaloo",
         "description": "", 
         "price": "139"
-      }},
-      {"type":"Feature","properties":{ 
-        "part":"lamb",
+      }
+    ],
+    "Lamb Curry Dishes (200 g)": [
+      {
         "id": 38,
         "name": "Lamb Rogan Josh",
         "description": "Pieces of lamb with rogan josh sauce.",
         "price": "169"
-      }},
-      {"type":"Feature","properties":{ 
-        "part":"lamb",
+      },
+      {
         "id": 39,
         "name": "Lamb Korma",
         "description": "Pieces of lamb cooked with fresh cream and mild Nepali spices.",
         "price": "179"
-      }},
-      {"type":"Feature","properties":{ 
-        "part":"lamb",
+      },
+      {
         "id": 40,
         "name": "Lamb Vindaloo",
         "description": "Pieces of lamb cooked with potato in hot and sour sauce.",
         "price": "169"
-      }},
-      {"type":"Feature","properties":{ 
-        "part":"lamb",
+      },
+      {
         "id": 41,
         "name": "Lamb with Saag",
         "description": "Pieces of lamb cooked with spinach.",
         "price": "169"
-      }},
-      {"type":"Feature","properties":{ 
-        "part":"lamb",
+      },
+      {
         "id": 42,
         "name": "Lamb with Prawn Curry",
         "description": "Pieces of lamb and prawn Nepali spices.",
         "price": "205"
-      }},
-      {"type":"Feature","properties":{ 
-        "part":"lamb",
+      },
+      {
         "id": 43,
         "name": "Lamb Mayalu Curry",
         "description": "Pieces of lamb with honey, dry fruits and Nepali spices.",
         "price": "179"
-      }},
-      {"type":"Feature","properties":{ 
-        "part":"lamb",
+      },
+      {
         "id": 44,
         "name": "Lamb Mango",
         "description": "Pieces of chicken with mango sauce.",
         "price": "169"
-      }},
-      {"type":"Feature","properties":{ 
-        "part":"lamb",
+      },
+      {
         "id": 45,
         "name": "Mix Max Curry",
         "description": "Lamb, Chicken, Prawn with Nepali spices.",
         "price": "215"
-      }},
-      {"type":"Feature","properties":{ 
-        "part":"fish",
+      }
+    ],
+    "Prawn and Fish (150 g)": [
+      {
         "id": 46,
         "name": "Prawn Curry",
         "description": "Peeled prawns cooked with fresh cream and mild Nepali spices.",
         "price": "200"
-      }},
-      {"type":"Feature","properties":{ 
-        "part":"fish",
+      },
+      {
         "id": 47,
         "name": "Prawn Korma",
         "description": "Peeled prawns cooked with fresh cream with grave.",
         "price": "205"
-      }},
-      {"type":"Feature","properties":{ 
-        "part":"fish",
+      },
+      {
         "id": 48,
         "name": "Prawn Makhani",
         "description": "Peeled prawns cooked with butter and Nepali sauce.",
         "price": "205"
-      }},
-      {"type":"Feature","properties":{ 
-        "part":"fish",
+      },
+      {
         "id": 49,
         "name": "Prawn Vindaloo",
         "description": "Peeled prawns with potato cooked in a hot and sour sauce.",
         "price": "195"
-      }},
-      {"type":"Feature","properties":{ 
-        "part":"fish",
+      },
+      {
         "id": 50,
         "name": "Fish Curry",
         "description": "Boneless fish cooked with fresh cream and mild Nepali spices.",
         "price": "129"
-      }},
-      {"type":"Feature","properties":{ 
-        "part":"fish",
+      },
+      {
         "id": 51,
         "name": "Fish Korma",
         "description": "Boneless fish cooked with fresh cream and mild Nepali spices.",
         "price": "139"
-      }},
-      {"type":"Feature","properties":{ 
-        "part":"fish",
+      },
+      {
         "id": 52,
         "name": "Fish Makhani",
         "description": "Boneless fish cooked with butter and fresh cream.",
         "price": "139"
-      }},
-      {"type":"Feature","properties":{ 
-        "part":"fish",
+      },
+      {
         "id": 53,
         "name": "Fish Vindaloo",
         "description": "Boneless fish with potato with hot and sour sauce.",
         "price": "129"
-      }},
-      {"type":"Feature","properties":{ 
-        "part":"vege",
+      }
+    ],
+    "Paneer and Vegetables Curry Dishes (150 g)": [
+      {
         "id": 54,
         "name": "Paneer Butter Masala",
         "description": "Home made cottage cheese cooked with tomato onion and fresh cream.",
         "price": "129"
-      }},
-      {"type":"Feature","properties":{ 
-        "part":"vege",
+      },
+      {
         "id": 55,
         "name": "Shai Paneer",
         "description": "Home made cottage cheese cooked with fresh and mild Nepali spices.",
         "price": "139"
-      }},
-      {"type":"Feature","properties":{ 
-        "part":"vege",
+      },
+      {
         "id": 56,
         "name": "Kadai Paneer",
         "description": "Home made cottage cheese cooked with onion capsicum.",
         "price": "129"
-      }},
-      {"type":"Feature","properties":{ 
-        "part":"vege",
+      },
+      {
         "id": 57,
         "name": "Aloo Gobi",
         "description": "Potato and cauliflower cooked in Nepali spices.",
         "price": "105"
-      }},
-      {"type":"Feature","properties":{ 
-        "part":"vege",
+      },
+      {
         "id": 58,
         "name": "Aloo Saag",
         "description": "Potato and spinach cooked in Nepali spices.",
         "price": "125"
-      }},
-      {"type":"Feature","properties":{ 
-        "part":"vege",
+      },
+      {
         "id": 59,
         "name": "Aloo Mushroom",
         "description": "Potato and mushroom cooked in Nepali spices.",
         "price": "125"
-      }},
-      {"type":"Feature","properties":{ 
-        "part":"vege",
+      },
+      {
         "id": 60,
         "name": "Dal Makhani",
         "description": "Lentil cooked with butter and Nepali spices.",
         "price": "105"
-      }},
-      {"type":"Feature","properties":{ 
-        "part":"vege",
+      },
+      {
         "id": 61,
         "name": "Dal Janeko",
         "description": "Lentil cooked and fried with Nepali spices.",
         "price": "95"
-      }},
-      {"type":"Feature","properties":{ 
-        "part":"vege",
+      },
+      {
         "id": 62,
         "name": "Aloo Panner Saaga",
         "description": "Potato, home made cheese and spinach cooked with Nepali spices.",
         "price": "139"
-      }},
-      {"type":"Feature","properties":{ 
-        "part":"vege",
+      },
+      {
         "id": 63,
         "name": "Vegetables Jalfrezi",
         "description": "Vegetable mix cooked with Nepali spices.",
         "price": "115"
-      }},
-      {"type":"Feature","properties":{ 
-        "part":"vege",
+      },
+      {
         "id": 64,
         "name": "Shabnam Curry",
         "description": "Mix vegetable with homemade cottage cheese cooked in Nepali spices.",
         "price": "139"
-      }},
-      {"type":"Feature","properties":{ 
-        "part":"vege",
+      },
+      {
         "id": 65,
         "name": "Vhindi Masala",
         "description": "Ladyfinger cooked with Nepali spices.",
         "price": "105"
-      }},
-      {"type":"Feature","properties":{ 
-        "part":"vege",
+      },
+      {
         "id": 66,
         "name": "Chana Masala",
         "description": "Grams cooked with Nepali spices.",
         "price": "99"
-      }},
-      {"type":"Feature","properties":{ 
-        "part":"vege",
+      },
+      {
         "id": 67,
         "name": "Rajma Masala",
         "description": "Kidney beans cooked with Nepali spices.",
         "price": "115"
-      }},
-      {"type":"Feature","properties":{ 
-        "part":"vege",
+      },
+      {
         "id": 68,
         "name": "Aloo Dam",
         "description": "Potato with cheese fried in oil cooked with Nepali spices.",
         "price": "115"
-      }},
-      {"type":"Feature","properties":{ 
-        "part":"tropical",
+      }
+    ],
+    "Tropical Nepali Khaja": [
+      {
         "id": 69,
         "name": "Lamb MO MO (Steam/Fried)",
         "description": "Dumpling of lamb with Nepali mo mo masala.",
         "price": "195"
-      }},
-      {"type":"Feature","properties":{ 
-        "part":"tropical",
+      },
+      {
         "id": 70,
         "name": "Chicken MO MO (Steam/Fried)",
         "description": "Dumpling of chicken with Nepali mo mo masala.",
         "price": "165"
-      }},
-      {"type":"Feature","properties":{ 
-        "part":"tropical",
+      },
+      {
         "id": 71,
         "name": "Vegetable MO MO (Steam/Fried)",
         "description": "Dumpling of vegetable with Nepali mo mo masala.",
         "price": "135"
-      }},
-      {"type":"Feature","properties":{ 
-        "part":"tropical",
+      },
+      {
         "id": 72,
         "name": "Chicken Chowmein",
         "description": "Pieces of chicken stir with noodles and vegetables.",
         "price": "110"
-      }},
-      {"type":"Feature","properties":{ 
-        "part":"tropical",
+      },
+      {
         "id": 73,
         "name": "Mix Chowmein",
         "description": "Lamb, chicken, prawn eggs stir with noodles and vegetabes.",
         "price": "135"
-      }},
-      {"type":"Feature","properties":{ 
-        "part":"tropical",
+      },
+      {
         "id": 74,
         "name": "Vegetables Chowmein",
         "description": "Mix vegetable stir with noodles.",
         "price": "95"
-      }},
-      {"type":"Feature","properties":{ 
-        "part":"tropical",
+      },
+      {
         "id": 75,
         "name": "Chicken Thukpa",
         "description": "Noddles soup with chicken slice.",
         "price": "95"
-      }},
-      {"type":"Feature","properties":{ 
-        "part":"tropical",
+      },
+      {
         "id": 76,
         "name": "Mix Thukpa",
         "description": "Noddles soup with lamb, prawn, chicken  and  vegetables slice.",
         "price": "115"
-      }},
-      {"type":"Feature","properties":{ 
-        "part":"tropical",
+      },
+      {
         "id": 77,
         "name": "Vegetable Thukpa",
         "description": "Noddles soup with vegetables slice.",
         "price": "85"
-      }},
-      {"type":"Feature","properties":{ 
-        "part":"tropical",
+      },
+      {
         "id": 78,
         "name": "Chicken Roll",
         "description": "Naan bread with vegetables roll chicken.",
         "price": "95"
-      }},
-      {"type":"Feature","properties":{ 
-        "part":"tropical",
+      },
+      {
         "id": 79,
         "name": "Chicken Tikka Roll",
         "description": "",
         "price": "105"
-      }},
-      {"type":"Feature","properties":{ 
-        "part":"tropical",
+      },
+      {
         "id": 80,
         "name": "Vegetables Roll",
         "description": "", 
         "price": "80"
-      }},
-      {"type":"Feature","properties":{ 
-        "part":"nepali",
+      }
+    ],
+    "Nepali Special Dishes Dal Bhat": [
+      {
         "id": 81,
         "name": "Lamb, Dal Bhat Thali",
+        "description1": "Pieces of lamb meat with lentil, vegetable, spinach, yoghurt, desert, pickle, salad, rice and naan.",
         "description": "Pieces of lamb meat with lentil, vegetable, spinach, yoghurt, desert, pickle, salad, rice and naan.",
         "price": "265"
-      }},
-      {"type":"Feature","properties":{ 
-        "part":"nepali",
+      },
+      {
         "id": 82,
         "name": "Chicken, Dal Bhat Thali",
         "description": "Pieces of chicken meat with lentil, vegetable, spinach, yoghurt, desert, pickle, salad, rice and naan.",
         "price": "245"
-      }},
-      {"type":"Feature","properties":{ 
-        "part":"nepali",
+      },
+      {
         "id": 83,
         "name": "Vegetable, Dal Bhat Thali",
-        "description": "Pieces of cheese meat with lentil, vegetable, spinach, yoghurt, desert, pickle, salad, rice and naan.",
+        "description": "Pieces of cheese meat with lentil, vegetable, spinach,	yoghurt, desert, pickle, salad, rice and naan.",
         "price": "225"
-      }},
-      {"type":"Feature","properties":{ 
-        "part":"rice",
+      }
+    ],
+    "Rice": [
+      {
         "id": 84,
         "name": "Plain Rice",
         "price": "40"
-      }},
-      {"type":"Feature","properties":{ 
-        "part":"rice",
+       },
+       {
         "id": 85,
         "name": "Saffron Rice",
         "price": "45"
-      }},
-      {"type":"Feature","properties":{ 
-        "part":"rice",
+       },
+       {
         "id": 86,
         "name": "Jeera Rice",
         "price": "45"
-      }},
-      {"type":"Feature","properties":{ 
-        "part":"rice",
+       },
+       {
         "id": 87,
         "name": "Peas Rice",
         "price": "45"
-      }},
-      {"type":"Feature","properties":{ 
-        "part":"rice",
+       },
+       {
         "id": 88,
         "name": "Mint Rice",
         "price": "45"
-      }},
-      {"type":"Feature","properties":{ 
-        "part":"rice",
+       },
+       {
         "id": 89,
         "name": "Kashmiri Rice",
         "price": "55"
-      }},
-      {"type":"Feature","properties":{ 
-        "part":"naan",
+       }
+    ],
+    "Naan": [
+      {
         "id": 90,
         "name": "Plain Naan",
         "price": "35"
-      }},
-      {"type":"Feature","properties":{ 
-        "part":"naan",
+      },
+      {
         "id": 91,
         "name": "Garlic Naan",
         "price": "40"
-      }},
-      {"type":"Feature","properties":{ 
-        "part":"naan",
+      },
+      {
         "id": 92,
         "name": "Cheese Naan",
         "price": "55"
-      }},
-      {"type":"Feature","properties":{ 
-        "part":"naan",
+      },
+      {
         "id": 93,
         "name": "Mint Naan",
         "price": "45"
-      }},
-      {"type":"Feature","properties":{ 
-        "part":"naan",
+      },
+      {
         "id": 94,
         "name": "Kashmiri Naan",
         "price": "49"
-      }},
-      {"type":"Feature","properties":{ 
-        "part":"naan",
+      },
+      {
         "id": 95,
         "name": "Onion Naan",
         "price": "40"
-      }},
-      {"type":"Feature","properties":{ 
-        "part":"naan",
+      },
+      {
         "id": 96,
         "name": "Tandoori Aloo Parotha",
         "price": "49"
-      }},
-      {"type":"Feature","properties":{ 
-        "part":"naan",
-        "id": 97, 
+      },
+      {
+        "id": 97,	
         "name": "Cheese and Onion Naan",
         "price": "55"
-      }},
-      {"type":"Feature","properties":{ 
-        "part":"salad",
+      }
+    ],
+    "Salad and Chutney": [
+      {
         "id": 98,
         "name": "Traditional Salad",
-        "price": "65"
-      }},
-      {"type":"Feature","properties":{ 
-        "part":"salad",
+        "price":	"65"
+      },
+      {
         "id": 99,
         "name": "Mix Vegetables Salad with Cheese",
-        "price": "75"
-      }},
-      {"type":"Feature","properties":{ 
-        "part":"salad",
+        "price":	"75"
+      },
+      {
         "id": 100,
         "name": "Tikka Vegetables Salad", 
         "price": "90"
-      }},
-      {"type":"Feature","properties":{ 
-        "part":"salad",
+      },
+      {
         "id": 101,
         "name": "Tomatoes Chutney", 
         "price": "35"
-      }},
-      {"type":"Feature","properties":{ 
-        "part":"salad",
+      },
+      {
         "id": 102,
         "name": "Mango Chutney",
         "price": "35"
-      }},
-      {"type":"Feature","properties":{ 
-        "part":"salad",
+      },
+      {
         "id": 103,
         "name": "Mix Pickle",
         "price": "35"
-      }},
-      {"type":"Feature","properties":{ 
-        "part":"salad",
+      },
+      {
         "id": 104,
         "name": "Mix Raita",
         "price": "35"
-      }},
-      {"type":"Feature","properties":{ 
-        "part":"salad",
+      },
+      {
         "id": 105,
         "name": "Plain Raita",
         "price": "30"
-      }},
-      {"type":"Feature","properties":{ 
-        "part":"desserts",
+      }
+    ],
+    "Dessert": [
+      {
         "id": 106,
         "name": "Rasgulla",
         "price": "55"
-      }},
-      {"type":"Feature","properties":{ 
-        "part":"desserts",
+      },
+      {
         "id": 107,
         "name": "Gulab Jamun",
         "price": "55"
-      }},
-      {"type":"Feature","properties":{ 
-        "part":"desserts",
+      },
+      {
         "id": 108,
         "name": "Dudh Bari", 
         "price": "75"
-      }},
-      {"type":"Feature","properties":{ 
-        "part":"drink",
+      }
+    ],
+    "Nepali Special Drinks": [
+      {
         "id": 109,
         "name": "Nepali Masala Cheeya",
         "price": "40"
-      }},
-      {"type":"Feature","properties":{ 
-        "part":"drink",
+      },
+      {
         "id": 110,
         "name": "Nepali Milk Masala Chee",
         "price": "45"
-      }},
-      {"type":"Feature","properties":{ 
-        "part":"drink",
+      },
+      {
         "id": 111,
         "name": "Mango Lassy",
         "price": "47"
-      }},
-      {"type":"Feature","properties":{ 
-        "part":"drink",
+      },
+      {
         "id": 112,
         "name": "Banana Lassy",
         "price": "47"
-      }},
-      {"type":"Feature","properties":{ 
-        "part":"drink",
+      },
+      {
         "id": 113,
         "name": "Sweet Lassy",
         "price": "47"
-      }},
-      {"type":"Feature","properties":{ 
-        "part":"drink",
+      },
+      {
         "id": 114,
         "name": "Salt Lassy ",
         "price": "47"
-      }}]}
+      }
+    ]
+}

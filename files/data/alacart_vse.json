@@ -165,14 +165,14 @@
         "part":"tandoori",
         "id": 24,
         "name": "Machha Kesari Kabab",
-        "description": "Pieces boneless fish marinated with tandoori yoghurt sauce.",
+        "description": "Pieces boneless fish marinated with tandoori	yoghurt sauce.",
         "price": "149"
       }},
       {"type":"Feature","properties":{ 
         "part":"chicken",
         "id": 25,
         "name": "Chicken Tikka Masala",
-        "description": "Tandoori roasted chicken pieces cooked with tomato, onion and fresh cream.",
+        "description": "Tandoori roasted chicken pieces cooked with tomato,	onion and fresh cream.",
         "price": "130"
       }},
       {"type":"Feature","properties":{ 
@@ -207,7 +207,7 @@
         "part":"chicken",
         "id": 30,
         "name": "Chicken Vindaloo",
-        "description": "Pieces of chicken cooked with potato in a hot and sour vindaloo sauce.",
+        "description": "Pieces of chicken cooked with potato in a hot	and sour vindaloo sauce.",
         "price": "120"
       }},
       {"type":"Feature","properties":{ 
@@ -578,7 +578,7 @@
         "part":"nepali",
         "id": 83,
         "name": "Vegetable, Dal Bhat Thali",
-        "description": "Pieces of cheese meat with lentil, vegetable, spinach, yoghurt, desert, pickle, salad, rice and naan.",
+        "description": "Pieces of cheese meat with lentil, vegetable, spinach,	yoghurt, desert, pickle, salad, rice and naan.",
         "price": "225"
       }},
       {"type":"Feature","properties":{ 
@@ -661,7 +661,7 @@
       }},
       {"type":"Feature","properties":{ 
         "part":"naan",
-        "id": 97, 
+        "id": 97,	
         "name": "Cheese and Onion Naan",
         "price": "55"
       }},
@@ -669,13 +669,13 @@
         "part":"salad",
         "id": 98,
         "name": "Traditional Salad",
-        "price": "65"
+        "price":	"65"
       }},
       {"type":"Feature","properties":{ 
         "part":"salad",
         "id": 99,
         "name": "Mix Vegetables Salad with Cheese",
-        "price": "75"
+        "price":	"75"
       }},
       {"type":"Feature","properties":{ 
         "part":"salad",

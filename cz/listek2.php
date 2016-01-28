@@ -10,8 +10,6 @@
       <div class="row container">
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
           <h2 class="page-header">Jídelní a nápojový lístek</h2>
-        </div>
-        <div class="col-lg-8 col-md-8 col-sm-6 col-xs-12">
           <p>
             <h4>
               <a href="listek.php"> 1</a> |
@@ -22,43 +20,48 @@
               <a href="listek6.php"> 6</a>
             </h4>
             <?php 
-            $file = "../files/data/alacart.json";
-            $jsondata = file_get_contents($file);
-            $json = json_decode($jsondata,true);
+            $datafile = "../files/data/alacart.json";
+            $data = json_decode(file_get_contents($datafile));
 
-            echo "<h3>Tandoori Specials (200 g)</h3>";
-            $tandoori = "<table class='table'>";
-              foreach($json['Tandoori Specials'] as $specials){
-              $tandoori .= "<tr>";
-              $tandoori .= "<td>" . $specials['id'] . "</td> ";
-              $tandoori .= "<td>" . $specials['name'] . "</td>" ;
-              $tandoori .= "<td>" . $specials['price'] . " Kč </td>";
-              $tandoori .= "</tr>";
-              $tandoori .= "<tr class='oranzovy_text'>";
-              $tandoori .= "<td></td>";
-              $tandoori .= "<td>" . $specials['description'] . "</td>";
-              $tandoori .= "<td></td>";
-              $tandoori .= "<td></td>";
-              $tandoori .= "</tr>";
-              }
-            $tandoori .= "</table>";
-            echo $tandoori;
+            $features = $data->features;
+
+            echo "<h3>Chicken Curry Dishes (200 g)</h3>";
+            $chickens = "<table class='table'>";
+
+            foreach ($features as $f) {
+            if ($f->properties->part == "chicken") {
+              $chickens .= "<tr>";
+              $chickens .= "<td>" . $f->properties->id . "</td> ";
+              $chickens .= "<td>" . $f->properties->name . "</td>" ;
+              $chickens .= "<td>" . $f->properties->price . " Kč </td>";
+              $chickens .= "</tr>";
+              $chickens .= "<tr class='oranzovy_text'>";
+              $chickens .= "<td></td>";
+              $chickens .= "<td>" . $f->properties->description . "</td>";
+              $chickens .= "<td></td>";
+              $chickens .= "<td></td>";
+              $chickens .= "</tr>";
+            }}
+            $chickens .= "</table>";
+            echo $chickens;
 
             echo "<h3>Lamb Curry Dishes (200 g)</h3>";
             $lambs = "<table class='table'>";
-              foreach($json['Lamb Curry Dishes (200 g)'] as $lamb){
+
+            foreach ($features as $f) {
+            if ($f->properties->part == "lamb") {
               $lambs .= "<tr>";
-              $lambs .= "<td>" . $lamb['id'] . "</td> ";
-              $lambs .= "<td>" . $lamb['name'] . "</td>" ;
-              $lambs .= "<td>" . $lamb['price'] . " Kč </td>";
+              $lambs .= "<td>" . $f->properties->id . "</td> ";
+              $lambs .= "<td>" . $f->properties->name . "</td>" ;
+              $lambs .= "<td>" . $f->properties->price . " Kč </td>";
               $lambs .= "</tr>";
               $lambs .= "<tr class='oranzovy_text'>";
               $lambs .= "<td></td>";
-              $lambs .= "<td>" . $lamb['description'] . "</td>";
+              $lambs .= "<td>" . $f->properties->description . "</td>";
               $lambs .= "<td></td>";
               $lambs .= "<td></td>";
               $lambs .= "</tr>";
-              }
+            }}
             $lambs .= "</table>";
             echo $lambs;
             ?>

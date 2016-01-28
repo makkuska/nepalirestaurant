@@ -10,9 +10,8 @@
       <div class="row container">
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
           <h2 class="page-header">O restauraci</h2>
-        </div>
-        <div class="col-lg-8 col-md-8 col-sm-6 col-xs-12">
             <p>
+
             Vítejte ve stylovém prostředí irské hospůdky The Crack nacházející
             se v centru Olomouce. Adresou jsme sice Mlýnská ulice, ale hlavní
             vchod hledejte přímo naproti Terezské brány na rušné ulici Třída

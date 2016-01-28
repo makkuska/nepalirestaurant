@@ -16,6 +16,7 @@
             $meal5 = filter_input(INPUT_POST, 'meal5');
             $meal6 = filter_input(INPUT_POST, 'meal6');
             $meal7 = filter_input(INPUT_POST, 'meal7');
+            $meal8 = filter_input(INPUT_POST, 'meal8');
 
             $newFeature = new stdClass();
             $newFeature->type = 'Feature';
@@ -30,6 +31,7 @@
             $prop->meal5 = $meal5;
             $prop->meal6 = $meal6;
             $prop->meal7 = $meal7;
+            $prop->meal8 = $meal8;
             $newFeature->properties = $prop;
             //position
 
@@ -66,34 +68,49 @@
           <div class="col-lg-4 col-md-4">
             <form action="admin_menu.php" method="post">
             <div class="form-group">
-              date: <input class="form-control" type="date" name="date" required>
+              <label for="date">date: </label> 
+              <input id="date" class="form-control" type="date" name="date" required>
             </div>
             <div class="form-group">
-              week: <input class="form-control" type="week" name="week" required>
+              <label for="week">week: </label> 
+              <input id="week" class="form-control" type="week" name="week" required>
             </div>
             <div class="form-group">
-              meals: <input class="form-control" name="meal1" type="text" required>
+              <label for="meal1">1. </label> 
+              <input id="meal1" class="form-control" name="meal1" type="text" required>
             </div>
             <div class="form-group">
-              <input class="form-control" name="meal2" type="text" required>
+              <label for="meal2">2. </label> 
+              <input id="meal2" class="form-control" name="meal2" type="text" required>
             </div>
             <div class="form-group">
-              <input class="form-control" name="meal3" type="text" required>
+              <label for="meal3">3. </label> 
+              <input id="meal3" class="form-control" name="meal3" type="text" required>
             </div>
             <div class="form-group">
-              <input class="form-control" name="meal4" type="text" >
+              <label for="meal4">4. </label> 
+              <input id="meal4" class="form-control" name="meal4" type="text" >
             </div>
             <div class="form-group">
-              <input class="form-control" name="meal5" type="text" >
+              <label for="meal5">5. </label> 
+              <input id="meal5" class="form-control" name="meal5" type="text" >
             </div>
             <div class="form-group">
-              <input class="form-control" name="meal6" type="text" >
+              <label for="meal6">6. </label> 
+              <input id="meal6" class="form-control" name="meal6" type="text" >
             </div>
             <div class="form-group">
-              <input class="form-control" name="meal7" type="text" >
+              <label for="meal7">7. </label> 
+              <input id="meal7" class="form-control" name="meal7" type="text" >
             </div>
+            <div class="form-group">
+              <label for="meal8">8. </label> 
+              <input id="meal8" class="form-control" name="meal8" type="text" >
+            </div>
+            <div class="form-group">
               <input class="btn btn-default" type="submit" value="Submit">
               <input type="hidden" name="url" value="http://">
+            </div>
             </form>
           </div>
           <div class="col-lg-7 col-md-7 col-lg-offset-1 col-md-offset-1">
@@ -106,7 +123,7 @@
         }
         echo "Today is " . date("l") . ' ' . date('d.m.Y') . ', week ' . date('W') . '<br />' . '<br />';
 
-        $this_week = '2015-W'.date('W');
+        $this_week = '2016-W'.date('W');
         $week = date('W');
         $week1 = $week+1;
         $next_week = date("Y") . "-W" . $week1;
@@ -126,7 +143,8 @@
                     $output .= $f->properties->meal4 . ' <br />';
                     $output .= $f->properties->meal5 . ' <br />';
                     $output .= $f->properties->meal6 . ' <br />';
-                    $output .= $f->properties->meal7 . '</p>';
+                    $output .= $f->properties->meal7 . ' <br />';
+                    $output .= $f->properties->meal8 . '</p>';
                     echo $output;
                 } else if ($f->properties->date != date("Y-m-d") && ($f->properties->week == $this_week || $f->properties->week == $next_week)) {
                     $output = '<p>';
@@ -140,7 +158,8 @@
                     $output .= $f->properties->meal4 . ' <br />';
                     $output .= $f->properties->meal5 . ' <br />';
                     $output .= $f->properties->meal6 . ' <br />';
-                    $output .= $f->properties->meal7 . '</p>';
+                    $output .= $f->properties->meal7 . ' <br />';
+                    $output .= $f->properties->meal8 . '</p>';
                     echo $output;
               }
               }

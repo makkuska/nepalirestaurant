@@ -1,0 +1,212 @@
+{"features":[{"type":"Feature","properties":{
+      "part":"starters",
+      "id": 1,
+      "name": "Onion Bhaji",
+      "size": "150 g",
+      "description": "Slices onion with light Nepali spices with gram flour and oil deep fired.",
+      "price": "69"
+      }},
+      {"type":"Feature","properties":{ 
+      "part":"starters",
+      "id": 2,
+      "name": "Paneer Pakora",
+      "size": "150 g",
+      "description": "Home made cottage cheese in gram flour butter and oil deep fried.",
+      "price": "79"
+      }},
+      {"type":"Feature","properties":{ 
+      "part":"starters",
+        "id": 3,
+        "name": "Chicken Pakora",
+        "size": "150 g",
+        "description": "Cubes of chicken with Nepali spices gram batter and oil deep fried.",
+        "price": "79"
+      }},
+      {"type":"Feature","properties":{ 
+      "part":"starters",
+        "id": 4,
+        "name": "Masala Papad",
+        "size": "2 pc",
+        "description": "Fried papad with chop onion, cucumber, tomato, carrot and chat masala with lime juice.",
+        "price": "40"
+      }},
+      {"type":"Feature","properties":{ 
+      "part":"starters",
+        "id": 5, 
+        "name": "Papad",
+        "size": "1 pc",
+        "description": "",
+        "price": "15"
+      }},
+      {"type":"Feature","properties":{ 
+      "part":"starters",
+        "id": 6,
+        "name": "Mushroom Tikka",
+        "size": "150 g",
+        "description": "Fresh mushroom marinated with tandoori sauce cooked in clay oven.",
+        "price": "69"
+      }},
+      {"type":"Feature","properties":{ 
+      "part":"starters",
+        "id": 7,
+        "name": "Butterfly prawn Pakora",
+        "size": "150 g",
+        "description": "Prawn pieces with gram flour batter and deep oil fried.",
+        "price": "155"
+      }},
+      {"type":"Feature","properties":{ 
+      "part":"starters",
+        "id": 8,
+        "name": "Aloo Chop",
+        "size": "150 g",
+        "description": "Slices potato pieces with gram flour batter and deep oil fried.",
+        "price": "69"
+      }},
+      {"type":"Feature","properties":{ 
+      "part":"soups",
+        "id": 9,
+        "name": "Tomato Soup",
+        "price": "40"
+      }},
+      {"type":"Feature","properties":{ 
+      "part":"soups",
+        "id": 10,
+        "name": "Bean Soup",
+        "price": "40"
+      }},
+      {"type":"Feature","properties":{ 
+      "part":"soups",
+        "id": 11,
+        "name": "Garlic Soup",
+        "price": "40"
+      }},
+      {"type":"Feature","properties":{ 
+      "part":"soups",
+        "id": 12,
+        "name": "Chicken Soup",
+        "price": "40"
+      }},
+      {"type":"Feature","properties":{ 
+      "part":"soups",
+        "id": 13,
+        "name": "Mushroom Soup",
+        "price": "40"
+      }},
+      {"type":"Feature","properties":{ 
+      "part":"soups",
+        "id": 14,
+        "name": "Hot and Sour Soup",
+        "price": "40"
+      }},
+      {"type":"Feature","properties":{ 
+        "part":"tandoori",
+        "id": 15,
+        "name": "Chicken Tikka",
+        "description": "Pieces of chicken marinated in yoghurt and Nepali spices.",
+        "price": "130"
+      }},
+      {"type":"Feature","properties":{ 
+        "part":"tandoori",
+        "id": 16,
+        "name": "Chicken Garlic Tikka",
+        "description": "Pieces of chicken marinated in garlic sauce, yoghurt and Nepali spices.",
+        "price": "139"
+      }},
+      {"type":"Feature","properties":{ 
+        "part":"tandoori",
+        "id": 17,
+        "name": "Chicken Ginger Tikka",
+        "description": "Pieces of chicken marinated in ginger sauce with yoghurt and Nepali spices.",
+        "price": "139"
+      }},
+      {"type":"Feature","properties":{ 
+        "part":"tandoori",
+        "id": 18,
+        "name": "Chicken Mali Tikka",
+        "description": "Pieces of chicken marinated with creamy sauce.",
+        "price": "139"
+      }},
+      {"type":"Feature","properties":{ 
+        "part":"tandoori",
+        "id": 19,
+        "name": "Chicken Hariyo Tikka",
+        "description": "Pieces of chicken marinated with mint and coriander sauce yoghurt.",
+        "price": "149"
+      }},
+      {"type":"Feature","properties":{ 
+        "part":"tandoori",
+        "id": 20,
+        "name": "Chicken Tandoori",
+        "description": "2 chicken quarters marinated in yoghurt and Nepali spices.",
+        "price": "190"
+      }},
+      {"type":"Feature","properties":{ 
+        "part":"tandoori",
+        "id": 21,
+        "name": "Saffron Chicken Tikka",
+        "description": "Pieces of chicken marinated with saffron and yoghurt and Nepali spices.",
+        "price": "139"
+      }},
+      {"type":"Feature","properties":{ 
+        "part":"tandoori",
+        "id": 22,
+        "name": "Chicken Sekuwa",
+        "description": "Pieces of chicken with Lemon and light Nepali spices.",
+        "price": "125"
+      }},
+      {"type":"Feature","properties":{ 
+        "part":"tandoori",
+        "id": 23,
+        "name": "Machha Tikka",
+        "description": "Pieces of bone less fish marinated with tandoori yoghurt sauce.",
+        "price": "139"
+      }},
+      {"type":"Feature","properties":{ 
+        "part":"tandoori",
+        "id": 24,
+        "name": "Machha Kesari Kabab",
+        "description": "Pieces boneless fish marinated with tandoori yoghurt sauce.",
+        "price": "149"
+      }},
+      {"type":"Feature","properties":{ 
+        "part":"chicken",
+        "id": 25,
+        "name": "Chicken Tikka Masala",
+        "description": "Tandoori roasted chicken pieces cooked with tomato,	onion and fresh cream.",
+        "price": "130"
+      }},
+      {"type":"Feature","properties":{ 
+        "part":"chicken",
+        "id": 26,
+        "name": "Butter Chicken",
+        "description": "Tandoori roasted chicken pieces cooked with tomato, onion, cream and butter.",
+        "price": "130"
+      }},
+      {"type":"Feature","properties":{ 
+        "part":"chicken",
+        "id": 27,
+        "name": "Chicken Nepali Curry",
+        "description": "Pieces of chicken cooked in Nepali style with Nepali herbs.",
+        "price": "120"
+      }},
+      {"type":"Feature","properties":{ 
+        "part":"chicken",
+        "id":   28,
+        "name": "Chicken Korai",
+        "description": "Pieces of chicken cooked with tomato, onion, capsicum, Coriander and Nepali spices.",
+        "price": "120"
+      }},
+      {"type":"Feature","properties":{ 
+        "part":"chicken",
+        "id": 29,
+        "name": "Chicken Korma",
+        "description": "Pieces of chicken cooked with fresh cream and mild Nepali spices.",
+        "price": "135"
+      }},
+      {"type":"Feature","properties":{ 
+        "part":"chicken",
+        "id": 30,
+        "name": "Chicken Vindaloo",
+        "description": "Pieces of chicken cooked with potato in a hot	and sour vindaloo sauce.",
+        "price": "120"
+      }}]}

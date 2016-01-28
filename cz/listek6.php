@@ -10,8 +10,6 @@
       <div class="row container">
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
           <h2 class="page-header">Jídelní a nápojový lístek</h2>
-        </div>
-        <div class="col-lg-8 col-md-8 col-sm-6 col-xs-12">
           <p>
             <h4>
               <a href="listek.php"> 1</a> |
@@ -22,31 +20,37 @@
               <span class="active">6</span>
             </h4>
             <?php 
+            $datafile = "../files/data/alacart.json";
+            $data = json_decode(file_get_contents($datafile));
+
+            $features = $data->features;
             $file = "../files/data/alacart.json";
-            $jsondata = file_get_contents($file);
-            $json = json_decode($jsondata,true);
 
             echo "<h3>Dessert</h3>";
             $dessertes = "<table class='table'>";
-              foreach($json['Dessert'] as $dessert){
+
+            foreach ($features as $f) {
+            if ($f->properties->part == "desserts") {
               $dessertes .= "<tr>";
-              $dessertes .= "<td>" . $dessert['id'] . "</td> ";
-              $dessertes .= "<td>" . $dessert['name'] . "</td>" ;
-              $dessertes .= "<td>" . $dessert['price'] . " Kč </td>";
+              $dessertes .= "<td>" . $f->properties->id . "</td> ";
+              $dessertes .= "<td>" . $f->properties->name . "</td>" ;
+              $dessertes .= "<td>" . $f->properties->price . " Kč </td>";
               $dessertes .= "</tr>";
-              }
+            }}
             $dessertes .= "</table>";
             echo $dessertes;
 
             echo "<h3>Nepali Special Drinks</h3>";
             $drinkes = "<table class='table'>";
-              foreach($json['Nepali Special Drinks'] as $drink){
+
+            foreach ($features as $f) {
+            if ($f->properties->part == "drink") {
               $drinkes .= "<tr>";
-              $drinkes .= "<td>" . $drink['id'] . "</td> ";
-              $drinkes .= "<td>" . $drink['name'] . "</td>" ;
-              $drinkes .= "<td>" . $drink['price'] . " Kč </td>";
+              $drinkes .= "<td>" . $f->properties->id . "</td> ";
+              $drinkes .= "<td>" . $f->properties->name . "</td>" ;
+              $drinkes .= "<td>" . $f->properties->price . " Kč </td>";
               $drinkes .= "</tr>";
-              }
+            }}
             $drinkes .= "</table>";
             echo $drinkes;
 

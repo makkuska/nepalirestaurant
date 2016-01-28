@@ -13,6 +13,7 @@
             $meal5 = filter_input(INPUT_POST, 'meal5');
             $meal6 = filter_input(INPUT_POST, 'meal6');
             $meal7 = filter_input(INPUT_POST, 'meal7');
+            $meal8 = filter_input(INPUT_POST, 'meal8');
 
             $newFeature = new stdClass();
             $newFeature->type = 'Feature';
@@ -26,6 +27,7 @@
             $prop->meal5 = $meal5;
             $prop->meal6 = $meal6;
             $prop->meal7 = $meal7;
+            $prop->meal8 = $meal8;
             $newFeature->properties = $prop;
             //position
 
@@ -58,13 +60,8 @@
       <div class="row container">
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
           <h2 class="page-header">Týdenní menu</h2>
-        </div>
-        <div class="col-lg-8 col-md-8 col-sm-6 col-xs-12">
           <p>
           Denní menu se podává pondělí až pátek mezi 11 a 15 hodinou. Jednotná cena 110 Kč. 
-
-          <?php if ($isLogged) { ?>
-            <?php } ?>
 
             <?php
 
@@ -74,24 +71,27 @@
         }
         echo "<br />";
         echo "Dnes je " . cesky_den(date("w")) . ' ' . date('d.m.Y') . '<br />' ;
-        $this_week = '2015-W'.date('W');
+        $this_week = '2016-W'.date('W');
 
             //print posts
 
               foreach ($features as $f) {
               if ($f->properties->date == date("Y-m-d") && $f->properties->week == $this_week) {
-                    $output = '<p class="oranzovy_text">';
+                    $output = '<p>';
+                    $output .= '<span class="oranzovy_text">';
                     $output .= '<strong>';
                     $output .= $f->properties->date[8] . $f->properties->date[9] . '.' . $f->properties->date[5] . $f->properties->date[6] . '.';
                     $output .= $f->properties->date[0] . $f->properties->date[1] . $f->properties->date[2] . $f->properties->date[3] ;
                     $output .= '</strong> <br />';
-                    $output .= $f->properties->meal1 . ' <br />';
-                    $output .= $f->properties->meal2 . ' <br />';
-                    $output .= $f->properties->meal3 . ' <br />';
-                    $output .= $f->properties->meal4 . ' <br />';
-                    $output .= $f->properties->meal5 . ' <br />';
-                    $output .= $f->properties->meal6 . ' <br />';
-                    $output .= $f->properties->meal7 . '</p>';
+                    $output .= '1. ' . $f->properties->meal1 . ' <br />';
+                    $output .= '2. ' . $f->properties->meal2 . ' <br />';
+                    $output .= '3. ' . $f->properties->meal3 . ' <br />';
+                    $output .= '4. ' . $f->properties->meal4 . ' <br />';
+                    $output .= '5. ' . $f->properties->meal5 . ' <br />';
+                    $output .= '6. ' . $f->properties->meal6 . ' <br />';
+                    $output .= '7. ' . $f->properties->meal7 . ' <br />';
+                    $output .= '8. ' . $f->properties->meal8 . '</span>';
+                    $output .= '</p>';
                     echo $output;
                 } else if ($f->properties->date != date("Y-m-d") && $f->properties->week == $this_week) {
                     $output = '<p>';
@@ -99,13 +99,15 @@
                     $output .= $f->properties->date[8] . $f->properties->date[9] . '.' . $f->properties->date[5] . $f->properties->date[6] . '.';
                     $output .= $f->properties->date[0] . $f->properties->date[1] . $f->properties->date[2] . $f->properties->date[3] ;
                     $output .= '</strong> <br />';
-                    $output .= $f->properties->meal1 . ' <br />';
-                    $output .= $f->properties->meal2 . ' <br />';
-                    $output .= $f->properties->meal3 . ' <br />';
-                    $output .= $f->properties->meal4 . ' <br />';
-                    $output .= $f->properties->meal5 . ' <br />';
-                    $output .= $f->properties->meal6 . ' <br />';
-                    $output .= $f->properties->meal7 . '</p>';
+                    $output .= '1. ' . $f->properties->meal1 . ' <br />';
+                    $output .= '2. ' . $f->properties->meal2 . ' <br />';
+                    $output .= '3. ' . $f->properties->meal3 . ' <br />';
+                    $output .= '4. ' . $f->properties->meal4 . ' <br />';
+                    $output .= '5. ' . $f->properties->meal5 . ' <br />';
+                    $output .= '6. ' . $f->properties->meal6 . ' <br />';
+                    $output .= '7. ' . $f->properties->meal7 . ' <br />';
+                    $output .= '8. ' . $f->properties->meal8 . '';
+                    $output .= '</p>';
                     echo $output;
               }
               }

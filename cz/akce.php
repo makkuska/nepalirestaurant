@@ -10,8 +10,7 @@
       <div class="row container">
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
           <h2 class="page-header">Akce</h2>
-        </div>
-        <div class="col-lg-8 col-md-8 col-sm-6 col-xs-12">
+          Přehled o tom, co se u nás aktuálně děje. 
 
         <?php
           //load data
