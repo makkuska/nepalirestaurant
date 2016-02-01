@@ -50,12 +50,12 @@
             if ($f->properties->part == "tropical") {
               $tropicales .= "<tr>";
               $tropicales .= "<td>" . $f->properties->id . "</td> ";
-              $tropicales .= "<td>" . $f->properties->name . "</td>" ;
+              $tropicales .= "<td>" . $f->properties->namecz . "</td>" ;
               $tropicales .= "<td>" . $f->properties->price . " Kč </td>";
               $tropicales .= "</tr>";
               $tropicales .= "<tr class='oranzovy_text'>";
               $tropicales .= "<td></td>";
-              $tropicales .= "<td>" . $f->properties->description . "</td>";
+              $tropicales .= "<td>" . $f->properties->descriptioncz . "</td>";
               $tropicales .= "<td></td>";
               $tropicales .= "<td></td>";
               $tropicales .= "</tr>";
@@ -140,19 +140,6 @@
             $dessertes .= "</table>";
             echo $dessertes;
 
-            echo "<h3>Speciální nepálské nápoje</h3>";
-            $drinkes = "<table class='table'>";
-
-            foreach ($features as $f) {
-            if ($f->properties->part == "drink") {
-              $drinkes .= "<tr>";
-              $drinkes .= "<td>" . $f->properties->id . "</td> ";
-              $drinkes .= "<td>" . $f->properties->namecz . "</td>" ;
-              $drinkes .= "<td>" . $f->properties->price . " Kč </td>";
-              $drinkes .= "</tr>";
-            }}
-            $drinkes .= "</table>";
-            echo $drinkes;
             ?>
 
           </p>

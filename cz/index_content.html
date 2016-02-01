@@ -5,7 +5,7 @@
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
           <h2 class="page-header">Vítejte v Nepali restaurant</h2>
         </div>
-        <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-6 col-xs-12">
+        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-12 col-xs-12">
           <p>
             <script type="text/javascript" >
               $(document).ready(function(){
@@ -38,7 +38,7 @@
           </p>
         </div> <!-- main collumn content -->
         <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-            <h3>Dnešní menu</h3>
+            <h3><a href=<?php echo "{$folder}menu.php"?>>Dnešní menu</a></h3>
 
             <?php
 
@@ -81,8 +81,8 @@
         <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
           <?php include_once("sideinfo.html") ?>
         </div>
-        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-          <h3>Akce</h3>
+        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+          <h3><a href=<?php echo "{$folder}akce.php"?>>Akce</a></h3>
 
             <?php
 
@@ -98,7 +98,7 @@
               if ($f->properties-> date > $date_2weeks) {
                   $output = '<p><strong>';
                   $output .= $f->properties->subjectcz;
-                  $output .= '</strong> (akce vložena ';
+                  $output .= '</strong><br /> (akce vložena ';
                   $output .= $f->properties->date[8] . $f->properties->date[9] . '.' . $f->properties->date[5] . $f->properties->date[6] . '.';
                   $output .= $f->properties->date[0] . $f->properties->date[1] . $f->properties->date[2] . $f->properties->date[3] ;
                   $output .= ') <br />';

@@ -1,16 +1,19 @@
         <!-- Navigace -->
         <?php $active = "" ?>
         <div class="navbar navbar-default">
-          <div class="navbar-header">
+          <div class="col-xs-10 navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand visible-xs" href="#">Nepali restaurant</a>
+            <a class="navbar-brand visible-xs" href=<?php echo "{$folder}index.php"?>>Nepali restaurant</a>
+          </div>
+          <div class="col-xs-2 navbar-header">
+            <a class="visible-xs navbar-brand" href=<?php echo "../cz/{$name_page}.php"?>>CZ</a>
           </div>
           <div class="navbar-collapse collapse">
-            <ul class="nav navbar-nav narbar-left">
+            <ul class="hidden-xs nav navbar-nav narbar-left">
 
               <li class=<?php if ($name_page_en == "menu") { $active = "active"; } else { $active = ""; } echo $active ?>>
                 <a href=<?php echo "{$folder}menu.php"?>>Lunch menu</a></li>
@@ -18,20 +21,12 @@
               <li class=<?php if ($name_page_en == "alacart") { $active = "active"; } else { $active = ""; } echo $active ?>>
                 <a href=<?php echo "{$folder}alacart.php"?>>Á la carte menu</a></li>
 
-                <li><span class="bla">Blai</li>
-                <li><span class="bla"><a href=<?php echo "{$folder}index.php"?>>Blaaaaa</a></li>
-                <li><span class="bla">Blaiii</li>
-<!--
-              <li class=<?php if ($name_page == "restaurace") { $active = "active"; } else { $active = ""; } echo $active ?>>
-                <a href=<?php echo "{$folder}restaurace.php"?>>O restauraci</a></li>
-
-              <li class=<?php if ($name_page == "interier") { $active = "active"; } else { $active = ""; } echo $active ?>>
-                <a href=<?php echo "{$folder}interier.php"?>>Interiér</a></li>
-
-              <li class=<?php if ($name_page == "akce") { $active = "visible-xs active"; } else { $active = "visible-xs"; } echo $active ?>>
-                <a href=<?php echo "{$folder}akce.php"?>>Akce</a></li>
--->
-
+                <li><span class="bla hidden-sm hidden-xs">Blai</li>
+                <li><span class="bla visible-sm">B</li>
+                <li><span class="bla hidden-sm hidden-xs"><a href=<?php echo "{$folder}index.php"?>>Blaaaaa</a></li>
+                <li><span class="bla visible-sm"><a href=<?php echo "{$folder}index.php"?>>Blaai</a></li>
+                <li><span class="bla hidden-sm hidden-xs">Blaii</li>
+                <li><span class="bla visible-sm">Bi</li>
 
               <li class=<?php if ($name_page_en == "events") { $active = "active"; } else { $active = ""; } echo $active ?>>
                 <a href=<?php echo "{$folder}events.php"?>>Events</a></li>
@@ -39,12 +34,29 @@
               <li class=<?php if ($name_page_en == "contact") { $active = "active"; } else { $active = ""; } echo $active ?>>
                 <a href=<?php echo "{$folder}contact.php"?>>Contact</a></li>
 
-              <li><a class="visible-xs" href=<?php echo "../en/{$name_page_en}.php"?>>English</a></li>
             </ul>
-            <ul class="nav navbar-nav navbar-right">
+            <ul class="hidden-xs nav navbar-nav navbar-right">
+              <hr class="visible-xs" />
               <li><a class="hidden-xs" href=<?php echo "../cz/{$name_page}.php"?>>CZ</a> 
               <li class="hidden-xs navbar-text">|</li>
               <li><a class="hidden-xs" href=<?php echo "{$name_page_en}.php"?>>EN</a></li>
+            </ul>
+
+            <ul class="visible-xs nav navbar-nav">
+              <li class=<?php if ($name_page_en == "menu") { $active = "active"; } else { $active = ""; } echo $active ?>>
+                <a href=<?php echo "{$folder}menu.php"?>>Lunch menu</a></li>
+              <li class=<?php if ($name_page_en == "menu") { $active = "active"; } else { $active = ""; } echo $active ?>>
+                <a href=<?php echo "{$folder}menu.php"?>>Lunch menu</a></li>
+              <li class=<?php if ($name_page_en == "menu") { $active = "active"; } else { $active = ""; } echo $active ?>>
+                <a href=<?php echo "{$folder}menu.php"?>>Lunch menu</a></li>
+              <li class=<?php if ($name_page_en == "menu") { $active = "active"; } else { $active = ""; } echo $active ?>>
+                <a href=<?php echo "{$folder}menu.php"?>>Lunch menu</a></li>
+              <li class=<?php if ($name_page_en == "alacart") { $active = "active"; } else { $active = ""; } echo $active ?>>
+                <a href=<?php echo "{$folder}alacart.php"?>>Á la carte menu</a></li>
+              <li class=<?php if ($name_page_en == "events") { $active = "active"; } else { $active = ""; } echo $active ?>>
+                <a href=<?php echo "{$folder}events.php"?>>Events</a></li>
+              <li class=<?php if ($name_page_en == "contact") { $active = "active"; } else { $active = ""; } echo $active ?>>
+                <a href=<?php echo "{$folder}contact.php"?>>Contact</a></li>
             </ul>
           </div><!--/.nav-collapse -->
         </div>

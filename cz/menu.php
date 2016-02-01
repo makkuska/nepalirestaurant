@@ -20,6 +20,7 @@
           <h2 class="page-header">Týdenní menu</h2>
           <p>
           Polední menu se podává formou bufetu <strong>pondělí až pátek mezi 11 a 15 hodinou</strong>.
+          </p>
           <div class="row">
             <div class="col-lg-7 col-md-8 col-sm-10 col-xs-12">
               <table class='table'>
@@ -59,6 +60,12 @@
         echo "Dnes je " . cesky_den(date("w")) . ' ' . date('d.m.Y');
         echo "</p>";
         $this_week = '2016-W'.date('W');
+
+            ?>
+
+          <div class="col-lg-10 col-md-10 col-sm-12 col-xs-12">
+
+            <?php
 
             //print posts
 
@@ -101,7 +108,7 @@
                     
 
             ?>
-          </p>
+          </div>
         </div> <!-- main collumn content -->
 
   <?php include_once("page_down_content.html") ?>

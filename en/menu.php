@@ -20,6 +20,7 @@
           <h2 class="page-header">Lunch menu</h2>
           <p>
           Lunch menu is served as a buffet <strong>Monday to Friday between 11am and 3pm</strong>.
+          </p>
           <div class="row">
             <div class="col-lg-7 col-md-8 col-sm-10 col-xs-12">
               <table class='table'>
@@ -60,6 +61,11 @@
         echo "</p>";
         $this_week = '2016-W'.date('W');
 
+            ?>
+
+          <div class="col-lg-10 col-md-10 col-sm-12 col-xs-12">
+
+            <?php
             //print posts
 
               foreach ($features as $f) {
@@ -101,7 +107,7 @@
                     
 
             ?>
-          </p>
+          </div>
         </div> <!-- main collumn content -->
 
   <?php include_once("page_down_content.html") ?>

@@ -12,11 +12,9 @@
           <h2 class="page-header">Jídelní a nápojový lístek</h2>
           <p>
             <h4>
-              Jídelní lístek 
-              <a href="listek.php"> 1</a> |
-              <a href="listek2.php"> 2</a> |
-              <a href="listek3.php"> 3</a> |
-              <a href="listek5.php"> 4</a> |
+              <a href="jidelni.php">Jídelní lístek</span>
+              <a href="jidelni.php">1</a> |
+              <a href="jidelni2.php">2</a> |
               <span class="active">Nápojový lístek</span>
             </h4>
             <?php 
@@ -25,6 +23,20 @@
 
             $features = $data->features;
             $file = "../files/data/alacart.json";
+
+            echo "<h3>Speciální nepálské nápoje</h3>";
+            $drinkes = "<table class='table'>";
+
+            foreach ($features as $f) {
+            if ($f->properties->part == "drink") {
+              $drinkes .= "<tr>";
+              $drinkes .= "<td>" . $f->properties->id . "</td> ";
+              $drinkes .= "<td>" . $f->properties->namecz . "</td>" ;
+              $drinkes .= "<td>" . $f->properties->price . " Kč </td>";
+              $drinkes .= "</tr>";
+            }}
+            $drinkes .= "</table>";
+            echo $drinkes;
 
             echo "<h3>Pivo</h3>";
             $beer = "<table class='table'>";
@@ -201,7 +213,7 @@
             if ($f->properties->part == "vino") {
               $vino .= "<tr>";
               $vino .= "<td>" . $f->properties->id . "</td> ";
-              $vino .= "<td>" . $f->properties->name . "</td>" ;
+              $vino .= "<td>" . $f->properties->namecz . "</td>" ;
               $vino .= "<td>" . $f->properties->price . " Kč </td>";
               $vino .= "</tr>";
             }}

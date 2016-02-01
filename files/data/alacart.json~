@@ -1079,13 +1079,11 @@
 
       {"type":"Feature","properties":{ 
         "part":"vino",
-        "name": "Glass of wine 0,2 l",
-        "namecz": "Víno 0,2 l",
+        "name": "Víno 0,2 l / Glass of wine 0,2 l",
         "price": "40"
       }},
       {"type":"Feature","properties":{ 
         "part":"vino",
-        "name": "Bottle of wine 0,75 l",
-        "namecz": "Víno láhev 0,75 l",
+        "name": "Víno láhev 0,75 l / Bottle of wine 0,75 l",
         "price": "190"
       }}]}
