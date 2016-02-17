@@ -28,11 +28,13 @@
               src="../files/img/facebook.png" /></a>
           </p>
           <h4>Opening hours</h4>
-          <strong>Monday to Saturday: 11:00 - 22:00	</strong>	<br />
-            <h4>We accept these meal ticket:</h4>
-          <p>
-            <img alt="stravenky checque ticket gastro" src="../files/img/stravenky.png" />
-          </p>
+            <strong>Monday to Saturday: 11:00 - 22:00	</strong>	<br />
+            <span>Sunday: closed</span>
+
+          <h4>We accept these meal ticket:</h4>
+            <p>
+              <img alt="stravenky checque ticket gastro" src="../files/img/stravenky.png" />
+            </p>
 
         </div> <!-- main collumn content -->
 

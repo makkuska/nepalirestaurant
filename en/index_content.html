@@ -25,7 +25,7 @@
             </script>
             <ul class="slider_top">
               <li><img title="Lumbini - Mayadevi Temple" src=<?php echo "{$files}files/foto/lumbini_orez.jpg"?>></li>
-              <li><img title="Swajambunath Stupa" src=<?php echo "{$files}files/foto/syambhu_orez.jpg"?>></li>
+              <li><img title="Swayambunath Stupa" src=<?php echo "{$files}files/foto/syambhu_orez.jpg"?>></li>
               <li><img title="Mt. Everest" src=<?php echo "{$files}files/foto/everest_orez.jpg"?>></li>
               <li><img title="Lumbini - Shanti Stupa" src=<?php echo "{$files}files/foto/lumbini_2_orez.jpg"?>></li>
               <li><img title="Rhododendron" src=<?php echo "{$files}files/foto/rhododendron_orez.jpg"?>></li>
@@ -42,39 +42,14 @@
 
             <?php
 
-              //load data jidlo
-              $datafile = $files . 'files/data/jidlo.json';
-              $data = json_decode(file_get_contents($datafile));
-              $features = $data->features;
+              include_once("../cz/admin_select_menu.php"); 
+              include_once("../cz/index_conn_db.php"); 
 
-              function cesky_den($den) {
-                  static $nazvy = array('neděle', 'pondělí', 'úterý', 'středa', 'čtvrtek', 'pátek', 'sobota');
-                  return $nazvy[$den];
-              }
-              echo "<p>";
-              echo "Today is " . date("l") . ' ' . date('d.m.Y');
-              echo "</p>";
-              $this_week = '2015-W'.date('W');
-
-              //print posts
-              foreach ($features as $f) {
-              if ($f->properties->date == date("Y-m-d")) {
-                    $output .= '1. ' . $f->properties->meal1 . ' <br />';
-                    $output .= '2. ' . $f->properties->meal2 . ' <br />';
-                    $output .= '3. ' . $f->properties->meal3 . ' <br />';
-                    $output .= '4. ' . $f->properties->meal4 . ' <br />';
-                    $output .= '5. ' . $f->properties->meal5 . ' <br />';
-                    $output .= '6. ' . $f->properties->meal6 . ' <br />';
-                    $output .= '7. ' . $f->properties->meal7 . ' <br />';
-                    $output .= '8. ' . $f->properties->meal8 . '</p>';
-                    echo $output;
-                    }
-                    }
-
-              if ((date("w") == 0 or (date("w")) == 6)) {
+              if (date("w") == 6) {
                 echo 'Saturday only cook from <a href="'. $folder . 'alacart.php">á la cart menu</a>.';
-              } 
-                    
+                } else if (date("w") == 0) {
+                echo 'Today is closed. ';
+                }
 
             ?>
         </div>
