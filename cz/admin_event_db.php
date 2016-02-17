@@ -1,132 +1,123 @@
-
-        <?php
-          //load data
-          $datafile = '../files/data/akce.json';
-          $data = json_decode(file_get_contents($datafile));
-
-          //process form
-          if (isset($_POST['url']) && $_POST['url'] == 'http://') {
-            $date = filter_input(INPUT_POST, 'date');
-            $subject = filter_input(INPUT_POST, 'subject');
-            $message = filter_input(INPUT_POST, 'message');
-            $subjectcz = filter_input(INPUT_POST, 'subjectcz');
-            $messagecz = filter_input(INPUT_POST, 'messagecz');
-
-            $newFeature = new stdClass();
-            $newFeature->type = 'Feature';
-            //attributes
-            $prop = new stdClass();
-            $prop->date = $date;
-            $prop->subject = $subject;
-            $prop->subjectcz = $subjectcz;
-            $prop->message = $message;
-            $prop->messagecz = $messagecz;
-            $newFeature->properties = $prop;
-            //position
-
-            //add to features
-            $data->features[] = $newFeature;
-
-            //save to file
-            $fh = fopen("../files/data/akce.json", 'r+')
-                  or die("Nelze načíst data");
-            fwrite($fh, json_encode($data,JSON_UNESCAPED_UNICODE));
-            fclose($fh);
-          }
-
-          $features = $data->features;
-
-          $isLogged = TRUE;
-        ?>
 <!DOCTYPE html>
   <?php $name_page = "" ?>
   <?php $name_page_en = "" ?>
   <?php $folder = "" ?>
   <?php $files = "../" ?>
-  <?php include_once("page_up_content.html") ?>
+  <?php 
+    include_once("page_up_content.html");
+    include_once("admin_select_event.php"); 
+  ?>
+
     <div id="admin" class="hlavni container"> 
       <div class="row container">
         <h1>Administrator</h1>
 
-        <h2><span class="active">Add event</span> | <a href="admin_menu.php">Add meal</a></h2>
-
-          <?php if ($isLogged) { ?>
-          <div class="col-lg-4 col-md-4">
-            <form action="admin_event.php" method="post">
+        <h2><span class="active">Add event</span> | <a href="admin_menu_db.php">Add meal</a></h2>
+        <div class="row">
+          <div class="col-lg-11 col-md-11">
+            <form class="form-horizontal" action="admin_add_event.php" method="post">
             <div class="form-group">
-              date: <input class="form-control" type="date" name="date" required>
+              <label class="hidden" for="id">id: </label> 
+              <input id="id" class="form-control hidden" type="text" name="id">
             </div>
             <div class="form-group">
-              subject<input class="form-control" type="text" name="subject" required>
+              <label for="date" class="col-lg-3 control-label">date: </label> 
+              <div class="col-lg-9">
+                <input id="date" class="form-control" type="date" name="date" required>
+              </div>
             </div>
             <div class="form-group">
-              message: <textarea id="frm-text" class="form-control" name="message" placeholder="text" required></textarea>
+              <label for="subject_en" class="col-lg-3 control-label">subject: </label> 
+              <div class="col-lg-9">
+                <input id="subject_en" class="form-control" type="text" name="subject_en" required>
+              </div>
             </div>
             <div class="form-group">
-              subject (in CZECH)<input class="form-control" type="text" name="subjectcz" required>
+              <label for="frm-text" class="col-lg-3 control-label">message: </label> 
+              <div class="col-lg-9">
+                <textarea id="frm-text" class="form-control" name="message_en" placeholder="text" required></textarea>
+              </div>
             </div>
             <div class="form-group">
-              message (in CZECH): <textarea id="frm-text" class="form-control" name="messagecz" placeholder="text" required></textarea>
+              <label for="subject_cz" class="col-lg-3 control-label">subject (in CZECH): </label> 
+              <div class="col-lg-9">
+                <input id="subject_cz" class="form-control" type="text" name="subject_cz" required>
+              </div>
             </div>
-              <input class="btn btn-default" type="submit" value="Submit">
-              <input type="hidden" name="url" value="http://">
+            <div class="form-group">
+              <label for="frm-text" class="col-lg-3 control-label">message (in CZECH): </label> 
+              <div class="col-lg-9">
+                <textarea id="frm-text" class="form-control" name="message_cz" placeholder="text" required></textarea>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="col-lg-9 col-lg-offset-3">
+                <input class="btn btn-info" type="submit" value="Add event">
+                <input type="hidden" name="url" value="http://">
+              </div>
+            </div>
             </form>
           </div>
-          <?php } ?>
+        </div>
 
-          <div class="col-lg-7 col-md-7 col-lg-offset-1 col-md-offset-1">
+          <div class="col-lg-12 col-md-12">
 
             <?php
 
-              echo "Today is " . date("l") . ' ' . date('d.m.Y') . ', week ' . date('W') . '<br />' . '<br />';
+              echo "<p>Today is " . date("l") . ' ' . date('d.m.Y'). '.</p>';
 
-              //print posts
-              foreach ($features as $f) {
-                if ($f->properties->date == date("Y-m-d")) {
-                  $output = '<p class="oranzovy_text"><strong>';
-                  $output .= $f->properties->subjectcz;
-                  $output .= '</strong> (akce vložena ';
-                  $output .= $f->properties->date[8] . $f->properties->date[9] . '.' . $f->properties->date[5] . $f->properties->date[6] . '.';
-                  $output .= $f->properties->date[0] . $f->properties->date[1] . $f->properties->date[2] . $f->properties->date[3] ;
-                  $output .= ') <br />';
-                  $output .= $f->properties->messagecz;
-                  $output .= '</p>';
-                  $output .= $f->properties->subject;
-                  $output .= '</strong> (event added ';
-                  $output .= $f->properties->date[8] . $f->properties->date[9] . '.' . $f->properties->date[5] . $f->properties->date[6] . '.';
-                  $output .= $f->properties->date[0] . $f->properties->date[1] . $f->properties->date[2] . $f->properties->date[3] ;
-                  $output .= ') <br />';
-                  $output .= $f->properties->message;
-                  $output .= '</p>';
-                  echo $output;
-                } else if ($f->properties->date != date("Y-m-d")) {
-                  $output = '<p><strong>';
-                  $output .= $f->properties->subjectcz;
-                  $output .= '</strong> (akce vložena ';
-                  $output .= $f->properties->date[8] . $f->properties->date[9] . '.' . $f->properties->date[5] . $f->properties->date[6] . '.';
-                  $output .= $f->properties->date[0] . $f->properties->date[1] . $f->properties->date[2] . $f->properties->date[3] ;
-                  $output .= ') <br />';
-                  $output .= $f->properties->messagecz;
-                  $output .= '</p>';
-                  $output .= $f->properties->subject;
-                  $output .= '</strong> (event added ';
-                  $output .= $f->properties->date[8] . $f->properties->date[9] . '.' . $f->properties->date[5] . $f->properties->date[6] . '.';
-                  $output .= $f->properties->date[0] . $f->properties->date[1] . $f->properties->date[2] . $f->properties->date[3] ;
-                  $output .= ') <br />';
-                  $output .= $f->properties->message;
-                  $output .= '</p>';
-                  echo $output;
-                }
-              }
+          while($row = mysql_fetch_array($result_event)){   //Creates a loop to loop through results
+            $output = "<form action='admin_update_event.php' method='post'>";
+            $output .= "<input class='hidden' type='text' name='id' value='" . $row['id'] . "'>";
+            $output .= "<div class='form-group'>";
+              $output .= "<label for='date' class='col-lg-3 control-label'>date </label>";
+              $output .= "<div class='col-lg-9'>";
+                $output .= "<input id='date' class='form-control' type='date' min='2016-01-01' name='date' value='" . $row['date'] . "'>";
+              $output .= "</div>";
+            $output .= "</div>";
+            $output .= "<div class='form-group'>";
+              $output .= "<label for='subject_en' class='col-lg-3 control-label'>subject: </label>";
+              $output .= "<div class='col-lg-9'>";
+                $output .= "<input id='subject_en' class='form-control' type='text' name='subject_en' value='" . $row['subject_en'] . "'>";
+              $output .= "</div>";
+            $output .= "</div>";
+            $output .= "<div class='form-group'>";
+              $output .= "<label for='message_en' class='col-lg-3 control-label'>message: </label>";
+              $output .= "<div class='col-lg-9'>";
+                $output .= "<input id='message_en' class='form-control' type='text' name='message_en' value='" . $row['message_en'] . "'></textarea>";
+              $output .= "</div>";
+            $output .= "</div>";
+            $output .= "<div class='form-group'>";
+              $output .= "<label for='subject_cz' class='col-lg-3 control-label'>subject (in CZECH): </label>";
+              $output .= "<div class='col-lg-9'>";
+                $output .= "<input id='subject_cz' class='form-control' type='text' name='subject_cz' value='" . $row['subject_cz'] . "'>";
+              $output .= "</div>";
+            $output .= "</div>";
+            $output .= "<div class='form-group'>";
+              $output .= "<label for='message_cz' class='col-lg-3 control-label'>message (in CZECH): </label>";
+              $output .= "<div class='col-lg-9'>";
+                $output .= "<input id='message_cz' class='form-control' type='text' name='message_cz' value='" . $row['message_cz'] . "'></textarea>";
+              $output .= "</div>";
+            $output .= "</div>";
+            $output .= "<div class='col-lg-9 col-lg-offset-3'>";
+              $output .= "<input class='btn btn-success' type='submit' value='Update'>";
+            $output .= "</div>";
+            $output .= "</form>";
+
+            $output .= "<form action='admin_delete_event.php' method='post'>";
+            $output .= "<input class='hidden' type='text' name='id' value='" . $row['id'] . "'>";
+              $output .= "<div class='col-lg-9 col-lg-offset-3'>";
+                $output .= "<input id='delete_button' class='btn btn-warning' type='submit' value='Delete'>";
+              $output .= "</div>";
+            $output .= "</form>";
+            $output .= "<span class='skryty'>blaaa</span>";
+            echo $output;
+          }
+
+          mysql_close($dbhandle);
 
             ?>
           </div>
-
-          <script type="text/javascript">
-            var data = <?php echo json_encode($data, JSON_UNESCAPED_SLASHES); ?>;
-            init(data);
-          </script>
-
       </div>
     <?php include_once("paticka.html") ?>
     </div>

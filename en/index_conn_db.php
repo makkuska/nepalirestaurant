@@ -1,7 +1,7 @@
 
             <?php
 
-          while($row = mysql_fetch_array($result_cz)){   //Creates a loop to loop through results
+          while($row = mysql_fetch_array($result)){   //Creates a loop to loop through results
             if ($row['date'] == date("Y-m-d")) {
               $output = "<table id='vypis_menu' class='table'>";
             $output .= "<tr>";

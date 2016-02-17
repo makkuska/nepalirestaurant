@@ -1,9 +1,17 @@
 
             <?php
 
-          while($row = mysql_fetch_array($result_cz)){   //Creates a loop to loop through results
-            if ($row['date'] == date("Y-m-d")) {
+          while($row = mysql_fetch_array($result)){   //Creates a loop to loop through results
+            if (date("W", strtotime($row['date'])) == date('W')) {
               $output = "<table id='vypis_menu' class='table'>";
+            $output .= "<tr>";
+              $output .= "<td></td>";
+              if ($row['date'] == date("Y-m-d")) {
+                $output .= "<td><strong><span class='oranzovy_text'>". date('d.m.Y', strtotime($row['date'])) . "</strong></span></td>";
+              } else {
+                $output .= "<td><strong>". date('d.m.Y', strtotime($row['date'])) . "</strong></td>";
+              }
+            $output .= "</tr>";
             $output .= "<tr>";
               $output .= "<td>1. </td>";
               $output .= "<td>". $row['meal1'] . "</td>";

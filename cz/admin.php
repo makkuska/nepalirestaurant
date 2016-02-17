@@ -35,7 +35,7 @@
       <div class="row container">
     <h1 class="page-header">Administrator</h1>
     <div class="<?php echo $viditelne?>">
-    <h2><a href="admin_event.php">Add event </a> | <a href="admin_menu.php">Add meal</a></h2>
+    <h2><a href="admin_event_db.php">Add event </a> | <a href="admin_menu_db.php">Add meal</a></h2>
     </div>
 
     <?php if ($isLogged == FALSE) { 

@@ -124,11 +124,11 @@ td:nth-child(2) {
 }
 
 #tydenni_menu td:nth-child(2) {
-  width: 75%;
+  width: 70%;
 }
 
 #tydenni_menu td:last-child {
-  width: 15%;
+  width: 20%;
 }
 
 .table thead > tr > th, .table tbody > tr > th, .table tfoot > tr > th, .table thead > tr > td, .table tbody > tr > td, .table tfoot > tr > td {
