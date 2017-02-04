@@ -30,6 +30,7 @@
           <h4>Otevírací doba</h4>
           <strong>Pondělí až sobota: 11:00 - 22:00	</strong>	<br />
           <span> Neděle: zavřeno </span>
+          <br />
             <h4>Akceptujeme tyto stravenky:</h4>
           <p>
             <img alt="stravenky checque ticket gastro" src="../files/img/stravenky.png" />

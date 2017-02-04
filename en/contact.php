@@ -29,7 +29,7 @@
           </p>
           <h4>Opening hours</h4>
             <strong>Monday to Saturday: 11:00 - 22:00	</strong>	<br />
-            <span>Sunday: closed</span>
+            <span>Sunday: Closed</span>
 
           <h4>We accept these meal ticket:</h4>
             <p>

@@ -159,6 +159,10 @@ td:nth-child(2) {
   .bx-wrapper {
     margin-bottom: 120px;
   }
+
+  .bx-wrapper .bx-prev {
+    left: 0px;
+  }
   
   /* jumbotron - slider */
 .jumbotron {
